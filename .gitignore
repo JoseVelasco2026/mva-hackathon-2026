@@ -1,0 +1,15 @@
+# Exomiser software y datos de referencia (son del hackathon, no nuestros)
+exomiser-cli-14.0.0/
+exomiser_data/
+*.vcf.gz
+*.vcf.gz.tbi
+
+# Archivos temporales y logs
+*.log
+*.tmp
+.DS_Store
+__pycache__/
+*.pyc
+
+# Archivos HTML pesados de Exomiser (opcional, no necesarios para reproducir)
+*.html

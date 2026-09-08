@@ -1,0 +1,92 @@
+phenopacket:
+  id: WGS_EX2312012
+  subject:
+    id: WGS_EX2312012
+    sex: UNKNOWN
+  htsFiles:
+  - uri: /mnt/e/hackathon_mva_data/WGS_EX2312012_HGWCNDSX7.vcf.gz
+    htsFormat: VCF
+    genomeAssembly: hg38
+  phenotypicFeatures:
+  - type:
+      id: HP:0000121
+  - type:
+      id: HP:0001508
+  - type:
+      id: HP:0001518
+  - type:
+      id: HP:0001622
+  - type:
+      id: HP:0002859
+  - type:
+      id: HP:0003202
+  - type:
+      id: HP:0004322
+  - type:
+      id: HP:0200067
+analysis:
+  analysisMode: PASS_ONLY
+  inheritanceModes:
+    AUTOSOMAL_RECESSIVE_HOM_ALT: 0.1
+    AUTOSOMAL_RECESSIVE_COMP_HET: 2.0
+    AUTOSOMAL_DOMINANT: 0.1
+  frequencySources:
+  - GNOMAD_E_AFR
+  - GNOMAD_E_AMR
+  - GNOMAD_E_EAS
+  - GNOMAD_E_NFE
+  - GNOMAD_E_SAS
+  - GNOMAD_G_AFR
+  - GNOMAD_G_AMR
+  - GNOMAD_G_EAS
+  - GNOMAD_G_NFE
+  - GNOMAD_G_SAS
+  pathogenicitySources:
+  - REVEL
+  - MVP
+  - ALPHA_MISSENSE
+  - SPLICE_AI
+  steps:
+  - genePanelFilter:
+      geneSymbols:
+      - BUB1B
+      - CEP57
+      - TRIP13
+      - BUB1
+      - KNL1
+      - SPAG5
+      - CASC5
+      - NUF2
+      - MAD2L1
+      - MAD2L2
+      - CDC20
+      - AURKB
+      - PLK4
+      - STIL
+      - CENPJ
+      - ASPM
+      - MCPH1
+      - WDR62
+      - CDK5RAP2
+      - CENPE
+      - BUB3
+      - TTK
+  - frequencyFilter:
+      maxFrequency: 2.0
+  - pathogenicityFilter:
+      keepNonPathogenic: true
+  - inheritanceFilter: {}
+  - omimPrioritiser: {}
+  - hiPhivePrioritiser:
+      runParams: human,mouse,fish,ppi
+outputOptions:
+  outputContributingVariantsOnly: false
+  numGenes: 0
+  outputDirectory: /home/jose/bioinfo_tools/exomiser_results
+  outputFileName: mva_patient_01_panel
+  outputFormats:
+  - HTML
+  - JSON
+  - TSV_GENE
+  - TSV_VARIANT
+  - VCF

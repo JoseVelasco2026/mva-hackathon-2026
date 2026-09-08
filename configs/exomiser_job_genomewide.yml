@@ -1,0 +1,81 @@
+phenopacket:
+  id: WGS_EX2312012
+  subject:
+    id: WGS_EX2312012
+    sex: UNKNOWN
+  htsFiles:
+  - uri: /mnt/e/hackathon_mva_data/WGS_EX2312012_HGWCNDSX7.vcf.gz
+    htsFormat: VCF
+    genomeAssembly: hg38
+  phenotypicFeatures:
+  - type:
+      id: HP:0000121
+  - type:
+      id: HP:0001508
+  - type:
+      id: HP:0001518
+  - type:
+      id: HP:0001622
+  - type:
+      id: HP:0002859
+  - type:
+      id: HP:0003202
+  - type:
+      id: HP:0004322
+  - type:
+      id: HP:0200067
+analysis:
+  analysisMode: PASS_ONLY
+  inheritanceModes:
+    AUTOSOMAL_RECESSIVE_HOM_ALT: 0.1
+    AUTOSOMAL_RECESSIVE_COMP_HET: 2.0
+    AUTOSOMAL_DOMINANT: 0.1
+  frequencySources:
+  - GNOMAD_E_AFR
+  - GNOMAD_E_AMR
+  - GNOMAD_E_EAS
+  - GNOMAD_E_NFE
+  - GNOMAD_E_SAS
+  - GNOMAD_G_AFR
+  - GNOMAD_G_AMR
+  - GNOMAD_G_EAS
+  - GNOMAD_G_NFE
+  - GNOMAD_G_SAS
+  pathogenicitySources:
+  - REVEL
+  - MVP
+  - ALPHA_MISSENSE
+  - SPLICE_AI
+  steps:
+  - variantEffectFilter:
+      remove:
+      - UPSTREAM_GENE_VARIANT
+      - DOWNSTREAM_GENE_VARIANT
+      - INTERGENIC_VARIANT
+      - REGULATORY_REGION_VARIANT
+      - FIVE_PRIME_UTR_EXON_VARIANT
+      - FIVE_PRIME_UTR_INTRON_VARIANT
+      - THREE_PRIME_UTR_EXON_VARIANT
+      - THREE_PRIME_UTR_INTRON_VARIANT
+      - NON_CODING_TRANSCRIPT_EXON_VARIANT
+      - CODING_TRANSCRIPT_INTRON_VARIANT
+      - NON_CODING_TRANSCRIPT_INTRON_VARIANT
+  - frequencyFilter:
+      maxFrequency: 2.0
+  - pathogenicityFilter:
+      keepNonPathogenic: true
+  - inheritanceFilter: {}
+  - omimPrioritiser: {}
+  - hiPhivePrioritiser:
+      runParams: human,mouse,fish,ppi
+outputOptions:
+  outputContributingVariantsOnly: false
+  numGenes: 0
+  outputDirectory: /home/jose/bioinfo_tools/exomiser_results
+  outputFileName: mva_patient_01_nopanel
+  outputFormats:
+  - HTML
+  - JSON
+  - TSV_GENE
+  - TSV_VARIANT
+  - VCF

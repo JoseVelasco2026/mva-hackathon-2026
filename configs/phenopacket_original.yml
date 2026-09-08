@@ -1,0 +1,12 @@
+id: "patient_01"
+subject:
+  id: "patient_01"
+phenotypicFeatures:
+  - type: {id: "HP:0000121"}
+  - type: {id: "HP:0001508"}
+  - type: {id: "HP:0001518"}
+  - type: {id: "HP:0001622"}
+  - type: {id: "HP:0002859"}
+  - type: {id: "HP:0003202"}
+  - type: {id: "HP:0004322"}
+  - type: {id: "HP:0200067"}
