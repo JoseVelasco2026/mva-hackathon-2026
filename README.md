@@ -35,9 +35,9 @@ BUB1B maintained **identical score 0.9819** across all three configurations, dem
 
 We explicitly interrogated and closed four methodological gaps:
 
-1. **Structural variant exclusion:** Mean depth of coverage in the BUB1B region (chr15:40.1–40.3 Mb) was 43.2×, virtually identical to a control region on chr15 (43.3×). This rules out heterozygous deletions or duplications that would have escaped SNV-only calling.
+1. **Structural variant exclusion:** Mean depth of coverage in the BUB1B region (chr15:40.1–40.3 Mb) was 43.2×, virtually identical to a control region on chr15 (43.3×), grossly consistent with diploid copy number across the region. However, this coarse mean-depth comparison over a ~200 kb window lacks resolution to detect smaller CNVs; a dedicated SV/CNV caller would be needed to formally exclude these.
 2. **False-positive dismissal in the MHC:** HLA-DRB1 (chr6) emerged as rank 2 in the genome-wide run with score 0.9624. We rejected it as an artifact of extreme polymorphism at the MHC locus, noting its pheno score (0.7067) was substantially below BUB1B's (0.8134).
-3. **Phase inference via functional parsimony:** The VCF carries GATK PGT/PID tags, but the two BUB1B variants (10.9 kb apart) exceed the fragment size of short-read sequencing. We resolved phase by Mendelian parsimony: under the *cis* configuration one allele would remain wild-type (inconsistent with severe MVA). Only the *trans* configuration is compatible.
+3. **Phase inference via functional parsimony:** The FORMAT field of the two BUB1B variants contains no phasing tags, though PGT/PID tags are present at other nearby sites in the region (the caller attempted read-backed phasing elsewhere, but not here). At 10.9 kb apart, the two variants exceed short-read fragment size and were emitted unphased. We resolved phase by Mendelian parsimony: under the *cis* configuration one allele would remain wild-type (inconsistent with severe MVA). Only the *trans* configuration is compatible.
 4. **Promoter/UTR exclusion:** No PASS variants were found in the corrected BUB1B promoter (chr15:40,159,000–40,162,000).
 
 ## Repository structure

@@ -36,7 +36,7 @@ def main():
          "(3) a genome-wide run restricted to coding and splice-site variants via variantEffectFilter. "
          "BUB1B ranked first with identical combined score 0.9819 across all three configurations. "
          "We performed forensic validation of four potential limitations: "
-         "(a) CNV exclusion via depth-of-coverage comparison; "
+         "(a) coarse CNV screening via depth-of-coverage comparison; "
          "(b) rejection of HLA-DRB1 as a false positive driven by MHC hyperpolymorphism; "
          "(c) phase inference by Mendelian functional parsimony; "
          "(d) promoter/UTR scan with no causal regulatory variants.", False),

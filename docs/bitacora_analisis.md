@@ -33,8 +33,8 @@
 - HLA-DRB1 rank 2 (score 0.9624) descartado como artefacto de polimorfismo MHC
 
 ### Fase 5: Validación forense
-1. **CNV:** Cobertura BUB1B 43.2x vs control 43.3x — sin deleción/duplicación
-2. **Fase:** Tags PGT/PID presentes en VCF pero no aplicables (distancia 10.9 kb > insert size)
+1. **CNV:** Cobertura BUB1B 43.2x vs control 43.3x — consistente con número de copias diploide a escala regional; CNVs pequeños requieren caller dedicado
+2. **Fase:** Las dos variantes BUB1B no tienen tags de fase (GT:AD:DP:GQ:PL; genotipos 0/1); hay PGT/PID en sitios cercanos, pero la distancia de 10.9 kb impide phasing directo por short reads
 3. **Parsimonia funcional:** CIS inconsistente con fenotipo recesivo — TRANS inferido
 4. **Promotor/UTR:** Sin variantes PASS en región correcta (chr15:40,159,000-40,162,000)
 5. **ClinVar:** p.Leu737* confirmada con 2 estrellas (múltiples declarantes, sin conflictos)

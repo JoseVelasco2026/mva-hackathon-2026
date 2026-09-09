@@ -20,7 +20,7 @@ zcat "$VCF" | grep -v "^#" | \
 
 echo ""
 echo "=========================================="
-echo "2. Coverage analysis (CNV exclusion)"
+echo "2. Coverage analysis (coarse CNV screen)"
 echo "=========================================="
 echo "BUB1B region (chr15:40.1-40.3Mb):"
 zcat "$VCF" | grep -v "^#" | \
