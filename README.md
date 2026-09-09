@@ -6,7 +6,7 @@
 
 ## Summary
 
-We identified a **compound heterozygous** configuration in **BUB1B** (OMIM: 602789) as the causal basis of **Mosaic Variegated Aneuploidy syndrome 1** (OMIM: 257300) in proband `WGS_EX2312012`.
+We identified a **compound heterozygous** configuration in **BUB1B** (OMIM: 602789) as the causal basis of **Mosaic Variegated Aneuploidy syndrome 1** (OMIM: 257300) in proband `PROBAND01`.
 
 | Field | Value |
 |-------|-------|

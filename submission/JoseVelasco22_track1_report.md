@@ -3,11 +3,11 @@
 **Team:** Los omikos  
 **Author:** JoseVelasco22  
 **Date:** 2026-09-08  
-**Proband:** WGS_EX2312012  
+**Proband:** PROBAND01  
 
 ## Summary
 
-We identified a compound heterozygous loss-of-function configuration in **BUB1B** (OMIM: 602789) as the causal basis of Mosaic Variegated Aneuploidy syndrome 1 (OMIM: 257300) in proband WGS_EX2312012. The two causal variants are:
+We identified a compound heterozygous loss-of-function configuration in **BUB1B** (OMIM: 602789) as the causal basis of Mosaic Variegated Aneuploidy syndrome 1 (OMIM: 257300) in proband PROBAND01. The two causal variants are:
 
 - **chr15:40,209,701 T>G** — nonsense `p.Leu737*` (ClinVar ID 533901, PATHOGENIC_OR_LIKELY_PATHOGENIC, 2-star review)
 - **chr15:40,220,612 T>G** — missense `p.Asn1002Lys` (ClinVar absent, VUS, AlphaMissense 0.923)
@@ -18,7 +18,7 @@ Both variants truncate or compromise the BubR1 kinase domain (aa 700–1050), di
 
 ### Data and computational environment
 
-- **Input:** WGS VCF (GRCh38/hg38), 5,012,204 variant records, single proband `WGS_EX2312012`
+- **Input:** WGS VCF (GRCh38/hg38), 5,012,204 variant records, single proband `PROBAND01`
 - **Tool:** Exomiser v14.0.0 with 2406_hg38 transcript data, 2406_phenotype ontology, and ClinVar whitelist (238,630 entries)
 - **Phenotypic profile:** 8 HPO terms including HP:0002859 (Rhabdomyosarcoma), HP:0004322 (Short stature), HP:0001508 (Failure to thrive)
 - **Hardware:** WSL2 on Windows 11, OpenJDK 21.0.11, 6 GB JVM heap (`-Xmx6g`)
