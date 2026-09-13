@@ -8,7 +8,7 @@
 
 ## Abstract
 
-Mosaic Variegated Aneuploidy syndrome 1 (MVA1, OMIM:257300) is an ultra-rare chromosomal instability disorder caused by biallelic loss-of-function mutations in *BUB1B* (OMIM:602860), encoding the spindle assembly checkpoint (SAC) protein BubR1. We identified a compound heterozygous configuration (p.Leu737* nonsense + p.Asn1002Lys missense) in proband PROBAND01 presenting with rhabdomyosarcoma, microcephaly, and failure to thrive. Through triangulation of three independent literature searches (Consensus, LeapSpace, OpenEvidence), we propose a tiered drug repurposing strategy aligned with the "market-approved medications" criterion. **Primary candidate**: Pimitespib/TAS-116 (HSP90 inhibitor, approved in Japan 2022 for refractory GIST), best mechanistic match for aneuploidy-induced proteotoxic stress. **Secondary candidate**: Dasatinib (FDA-approved tyrosine kinase inhibitor), component of senolytic combination therapy. **Forward-looking candidates**: Adavosertib (WEE1 inhibitor, discontinued development) and Sovilnesib (KIF18A inhibitor, phase I trials), included for mechanistic relevance but explicitly declared as not meeting regulatory approval criteria. Structural characterization via AlphaFold 3 comparative modeling (WT pLDDT 92.71 vs. mutant 89.84 at position 1002, with C-terminal cascading destabilization) supports loss-of-function through scaffolding disruption rather than catalytic impairment, consistent with BubR1's pseudokinase status. Critical evidence gaps include zero direct testing in BUB1B-deficient models and absence of pediatric MVA-specific safety data.
+Mosaic Variegated Aneuploidy syndrome 1 (MVA1, OMIM:257300) is an ultra-rare chromosomal instability disorder caused by biallelic loss-of-function mutations in *BUB1B* (OMIM:602860), encoding the spindle assembly checkpoint (SAC) protein BubR1. We identified a compound heterozygous configuration (p.Leu737* nonsense + p.Asn1002Lys missense) in proband PROBAND01 presenting with rhabdomyosarcoma, microcephaly, and failure to thrive. Through triangulation of three independent literature searches (Consensus, LeapSpace, OpenEvidence), we propose a tiered drug repurposing strategy aligned with the "market-approved medications" criterion. **Primary candidate**: Pimitespib/TAS-116 (HSP90 inhibitor, approved in Japan 2022 for refractory GIST), best mechanistic match for aneuploidy-induced proteotoxic stress. **Secondary candidate**: Dasatinib (FDA-approved tyrosine kinase inhibitor), component of senolytic combination therapy. **Forward-looking candidates**: Adavosertib (WEE1 inhibitor, discontinued development) and Sovilnesib (KIF18A inhibitor, phase I trials), included for mechanistic relevance but explicitly declared as not meeting regulatory approval criteria. Structural characterization via AlphaFold 3 comparative modeling (WT pLDDT 92.23 +/- 0.35 vs. mutant 85.91 +/- 0.54 at position 1002, Delta = -6.33, n=5 seeds per condition) supports loss-of-function through scaffolding disruption rather than catalytic impairment, consistent with BubR1's pseudokinase status. Critical evidence gaps include zero direct testing in BUB1B-deficient models and absence of pediatric MVA-specific safety data.
 
 ---
 
@@ -72,8 +72,8 @@ Three independent deep-search tools were employed to ensure comprehensive covera
 
 Structural characterization of the p.Asn1002Lys variant was performed using AlphaFold 3 Server and AlphaFold DB:
 - **Wild-type reference**: AlphaFold DB entry O60566 (BUB1B human, model v6), downloaded directly from the EBI API
-- **Comparative modeling**: AlphaFold 3 Server predictions for both WT and p.Asn1002Lys mutant sequences
-- **Confidence assessment**: pLDDT scores extracted from full_data JSON files, averaged per residue from atomic-level values
+- **Comparative modeling**: AlphaFold 3 Server predictions for both WT and p.Asn1002Lys mutant sequences (5 independent seeds per condition)
+- **Confidence assessment**: pLDDT scores extracted from Cα B-factors in AlphaFold3 Server .cif outputs using Biopython (MMCIFParser), averaged across 5 seeds per condition
 - **Validation**: No experimental human BUB1B pseudokinase structure exists in PDB. The four available structures (2WVI, 3SI5, 4GGD, 5JJA) correspond to the N-terminal TPR domain or short fragments outside the pseudokinase region. Therefore, AlphaFold predictions are the only available structural reference for this region
 
 ### 2.4 Evidence Triangulation
@@ -224,24 +224,22 @@ Syndrome-specific toxicity data for children with constitutional chromosomal ins
 
 ### 4.2 Structural Characterization of p.Asn1002Lys
 
-To characterize the structural impact of the p.Asn1002Lys variant, we performed comparative structural modeling using AlphaFold 3 for both the wild-type (WT) and mutant sequences, supplemented by AlphaFold DB (O60566, model v6, pLDDT 91.06) as an orthogonal reference.
+To characterize the structural impact of the p.Asn1002Lys variant, we performed comparative structural modeling using AlphaFold 3 for both the wild-type (WT) and mutant sequences. Five independent predictions were generated per condition (5 seeds per job), allowing robust statistical comparison.
 
-**AlphaFold 3 Comparative Analysis**:
-- **Position 1002 pLDDT**: WT = 92.71 (very high confidence) vs. Mutant = 89.84 (high confidence).
-- **Local destabilization**: The N1002K substitution results in a ΔpLDDT of -2.87 at the mutated site.
-- **Cascading allosteric effect**: The structural perturbation propagates towards the C-terminus. Residues 1005-1007 show significantly larger confidence drops (e.g., position 1006 drops from 86.04 to 75.97, Δ = -10.06).
+**AlphaFold 3 Comparative Analysis** (5 independent seeds per condition, model confidence extracted from CA B-factors in AlphaFold3 Server .cif outputs):
+- **Position 1002 pLDDT**: WT = 92.23 +/- 0.35 (n=5) vs. Mutant = 85.91 +/- 0.54 (n=5); Delta = -6.33
+- The destabilization is centered at the mutation site and decays with distance in both directions (Delta ranges from -1.34 to -6.33 across residues 997-1007), consistent with a localized structural perturbation rather than a propagating effect
+- Seed-to-seed variability was low for both conditions (SD 0.12-0.77), indicating the WT-mutant separation exceeds model stochastic noise
 
 **Biophysical Interpretation**:
-The substitution replaces Asparagine (polar, uncharged) with Lysine (basic, positively charged, bulkier) in the C-lobe of the pseudokinase domain. The observed local destabilization and C-terminal propagation suggest a disruption of the structural scaffold or protein-protein interaction interfaces (e.g., with BUB3 or CDC20), rather than loss of catalytic activity. This is entirely consistent with BubR1's established role as a catalytically inactive pseudokinase scaffold (Breit et al., 2015; Suijkerbuijk et al., 2012).
+The substitution replaces Asparagine (polar, uncharged) with Lysine (basic, positively charged, bulkier) in the C-lobe of the pseudokinase domain. The observed local destabilization with distance-decaying propagation suggests disruption of the structural scaffold or protein-protein interaction interfaces (e.g., with BUB3 or CDC20), rather than loss of catalytic activity. This is entirely consistent with BubR1's established role as a catalytically inactive pseudokinase scaffold (Breit et al., 2015; Suijkerbuijk et al., 2012).
 
-*Limitation*: Structural modeling provides a biophysical proxy for loss-of-function, not direct functional proof. The pLDDT values represent averaged atomic confidences mapped to residues.
+*Limitation*: Structural modeling provides a biophysical proxy for loss-of-function, not direct functional proof.
 
 **Note on structural references**: No experimental human BUB1B pseudokinase structure exists in PDB. The four available structures (2WVI, 3SI5, 4GGD, 5JJA) correspond to the N-terminal TPR domain or short fragments outside the pseudokinase region. Therefore, AlphaFold predictions are the only available structural reference for this region.
 
-**Hypothesis generated by structural modeling**: p.Asn1002Lys may disrupt the scaffolding interface for BUB3/CDC20 binding or destabilize the pseudokinase fold, consistent with loss of checkpoint function. This is hypothesis-generating, not proof of pathogenicity.
-
 **Reproducibility**:
-All AlphaFold 3 job request parameters (including seeds and template configurations) and the custom Python script used for pLDDT extraction and comparison (compare_plddt_af3.py) are available in the repository (track2/structural_analysis/).
+All AlphaFold 3 job request parameters (including seeds and template configurations), the five predicted models per condition (.cif files), and the Biopython-based extraction script (compare_plddt_af3.py) are available in the repository (track2/structural_analysis/).
 
 ### 4.3 Clinical Implications and Recommendations
 
