@@ -1,0 +1,3219 @@
+data_5khu
+#
+_entry.id 5khu
+#
+loop_
+_chem_comp.formula
+_chem_comp.formula_weight
+_chem_comp.id
+_chem_comp.mon_nstd_flag
+_chem_comp.name
+_chem_comp.pdbx_synonyms
+_chem_comp.type
+"C3 H7 N O2"     89.093  ALA y ALANINE         ? "L-peptide linking" 
+"C6 H15 N4 O2 1" 175.209 ARG y ARGININE        ? "L-peptide linking" 
+"C4 H8 N2 O3"    132.118 ASN y ASPARAGINE      ? "L-peptide linking" 
+"C4 H7 N O4"     133.103 ASP y "ASPARTIC ACID" ? "L-peptide linking" 
+"C3 H7 N O2 S"   121.158 CYS y CYSTEINE        ? "L-peptide linking" 
+"C5 H10 N2 O3"   146.144 GLN y GLUTAMINE       ? "L-peptide linking" 
+"C5 H9 N O4"     147.129 GLU y "GLUTAMIC ACID" ? "L-peptide linking" 
+"C2 H5 N O2"     75.067  GLY y GLYCINE         ? "peptide linking"   
+"C6 H10 N3 O2 1" 156.162 HIS y HISTIDINE       ? "L-peptide linking" 
+"C6 H13 N O2"    131.173 ILE y ISOLEUCINE      ? "L-peptide linking" 
+"C6 H13 N O2"    131.173 LEU y LEUCINE         ? "L-peptide linking" 
+"C6 H15 N2 O2 1" 147.195 LYS y LYSINE          ? "L-peptide linking" 
+"C5 H11 N O2 S"  149.211 MET y METHIONINE      ? "L-peptide linking" 
+"C9 H11 N O2"    165.189 PHE y PHENYLALANINE   ? "L-peptide linking" 
+"C5 H9 N O2"     115.130 PRO y PROLINE         ? "L-peptide linking" 
+"C3 H7 N O3"     105.093 SER y SERINE          ? "L-peptide linking" 
+"C4 H9 N O3"     119.119 THR y THREONINE       ? "L-peptide linking" 
+"C11 H12 N2 O2"  204.225 TRP y TRYPTOPHAN      ? "L-peptide linking" 
+"C9 H11 N O3"    181.189 TYR y TYROSINE        ? "L-peptide linking" 
+"C5 H11 N O2"    117.146 VAL y VALINE          ? "L-peptide linking" 
+#
+loop_
+_chem_comp_atom.atom_id
+_chem_comp_atom.charge
+_chem_comp_atom.comp_id
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_ordinal
+_chem_comp_atom.type_symbol
+N    ? ALA ? ? ? ? 1   N 
+CA   ? ALA ? ? ? ? 2   C 
+C    ? ALA ? ? ? ? 3   C 
+O    ? ALA ? ? ? ? 4   O 
+CB   ? ALA ? ? ? ? 5   C 
+OXT  ? ALA ? ? ? ? 6   O 
+H    ? ALA ? ? ? ? 7   H 
+H2   ? ALA ? ? ? ? 8   H 
+HA   ? ALA ? ? ? ? 9   H 
+HB1  ? ALA ? ? ? ? 10  H 
+HB2  ? ALA ? ? ? ? 11  H 
+HB3  ? ALA ? ? ? ? 12  H 
+HXT  ? ALA ? ? ? ? 13  H 
+N    ? ARG ? ? ? ? 14  N 
+CA   ? ARG ? ? ? ? 15  C 
+C    ? ARG ? ? ? ? 16  C 
+O    ? ARG ? ? ? ? 17  O 
+CB   ? ARG ? ? ? ? 18  C 
+CG   ? ARG ? ? ? ? 19  C 
+CD   ? ARG ? ? ? ? 20  C 
+NE   ? ARG ? ? ? ? 21  N 
+CZ   ? ARG ? ? ? ? 22  C 
+NH1  ? ARG ? ? ? ? 23  N 
+NH2  ? ARG ? ? ? ? 24  N 
+OXT  ? ARG ? ? ? ? 25  O 
+H    ? ARG ? ? ? ? 26  H 
+H2   ? ARG ? ? ? ? 27  H 
+HA   ? ARG ? ? ? ? 28  H 
+HB2  ? ARG ? ? ? ? 29  H 
+HB3  ? ARG ? ? ? ? 30  H 
+HG2  ? ARG ? ? ? ? 31  H 
+HG3  ? ARG ? ? ? ? 32  H 
+HD2  ? ARG ? ? ? ? 33  H 
+HD3  ? ARG ? ? ? ? 34  H 
+HE   ? ARG ? ? ? ? 35  H 
+HH11 ? ARG ? ? ? ? 36  H 
+HH12 ? ARG ? ? ? ? 37  H 
+HH21 ? ARG ? ? ? ? 38  H 
+HH22 ? ARG ? ? ? ? 39  H 
+HXT  ? ARG ? ? ? ? 40  H 
+N    ? ASN ? ? ? ? 41  N 
+CA   ? ASN ? ? ? ? 42  C 
+C    ? ASN ? ? ? ? 43  C 
+O    ? ASN ? ? ? ? 44  O 
+CB   ? ASN ? ? ? ? 45  C 
+CG   ? ASN ? ? ? ? 46  C 
+OD1  ? ASN ? ? ? ? 47  O 
+ND2  ? ASN ? ? ? ? 48  N 
+OXT  ? ASN ? ? ? ? 49  O 
+H    ? ASN ? ? ? ? 50  H 
+H2   ? ASN ? ? ? ? 51  H 
+HA   ? ASN ? ? ? ? 52  H 
+HB2  ? ASN ? ? ? ? 53  H 
+HB3  ? ASN ? ? ? ? 54  H 
+HD21 ? ASN ? ? ? ? 55  H 
+HD22 ? ASN ? ? ? ? 56  H 
+HXT  ? ASN ? ? ? ? 57  H 
+N    ? ASP ? ? ? ? 58  N 
+CA   ? ASP ? ? ? ? 59  C 
+C    ? ASP ? ? ? ? 60  C 
+O    ? ASP ? ? ? ? 61  O 
+CB   ? ASP ? ? ? ? 62  C 
+CG   ? ASP ? ? ? ? 63  C 
+OD1  ? ASP ? ? ? ? 64  O 
+OD2  ? ASP ? ? ? ? 65  O 
+OXT  ? ASP ? ? ? ? 66  O 
+H    ? ASP ? ? ? ? 67  H 
+H2   ? ASP ? ? ? ? 68  H 
+HA   ? ASP ? ? ? ? 69  H 
+HB2  ? ASP ? ? ? ? 70  H 
+HB3  ? ASP ? ? ? ? 71  H 
+HD2  ? ASP ? ? ? ? 72  H 
+HXT  ? ASP ? ? ? ? 73  H 
+N    ? CYS ? ? ? ? 74  N 
+CA   ? CYS ? ? ? ? 75  C 
+C    ? CYS ? ? ? ? 76  C 
+O    ? CYS ? ? ? ? 77  O 
+CB   ? CYS ? ? ? ? 78  C 
+SG   ? CYS ? ? ? ? 79  S 
+OXT  ? CYS ? ? ? ? 80  O 
+H    ? CYS ? ? ? ? 81  H 
+H2   ? CYS ? ? ? ? 82  H 
+HA   ? CYS ? ? ? ? 83  H 
+HB2  ? CYS ? ? ? ? 84  H 
+HB3  ? CYS ? ? ? ? 85  H 
+HG   ? CYS ? ? ? ? 86  H 
+HXT  ? CYS ? ? ? ? 87  H 
+N    ? GLN ? ? ? ? 88  N 
+CA   ? GLN ? ? ? ? 89  C 
+C    ? GLN ? ? ? ? 90  C 
+O    ? GLN ? ? ? ? 91  O 
+CB   ? GLN ? ? ? ? 92  C 
+CG   ? GLN ? ? ? ? 93  C 
+CD   ? GLN ? ? ? ? 94  C 
+OE1  ? GLN ? ? ? ? 95  O 
+NE2  ? GLN ? ? ? ? 96  N 
+OXT  ? GLN ? ? ? ? 97  O 
+H    ? GLN ? ? ? ? 98  H 
+H2   ? GLN ? ? ? ? 99  H 
+HA   ? GLN ? ? ? ? 100 H 
+HB2  ? GLN ? ? ? ? 101 H 
+HB3  ? GLN ? ? ? ? 102 H 
+HG2  ? GLN ? ? ? ? 103 H 
+HG3  ? GLN ? ? ? ? 104 H 
+HE21 ? GLN ? ? ? ? 105 H 
+HE22 ? GLN ? ? ? ? 106 H 
+HXT  ? GLN ? ? ? ? 107 H 
+N    ? GLU ? ? ? ? 108 N 
+CA   ? GLU ? ? ? ? 109 C 
+C    ? GLU ? ? ? ? 110 C 
+O    ? GLU ? ? ? ? 111 O 
+CB   ? GLU ? ? ? ? 112 C 
+CG   ? GLU ? ? ? ? 113 C 
+CD   ? GLU ? ? ? ? 114 C 
+OE1  ? GLU ? ? ? ? 115 O 
+OE2  ? GLU ? ? ? ? 116 O 
+OXT  ? GLU ? ? ? ? 117 O 
+H    ? GLU ? ? ? ? 118 H 
+H2   ? GLU ? ? ? ? 119 H 
+HA   ? GLU ? ? ? ? 120 H 
+HB2  ? GLU ? ? ? ? 121 H 
+HB3  ? GLU ? ? ? ? 122 H 
+HG2  ? GLU ? ? ? ? 123 H 
+HG3  ? GLU ? ? ? ? 124 H 
+HE2  ? GLU ? ? ? ? 125 H 
+HXT  ? GLU ? ? ? ? 126 H 
+N    ? GLY ? ? ? ? 127 N 
+CA   ? GLY ? ? ? ? 128 C 
+C    ? GLY ? ? ? ? 129 C 
+O    ? GLY ? ? ? ? 130 O 
+OXT  ? GLY ? ? ? ? 131 O 
+H    ? GLY ? ? ? ? 132 H 
+H2   ? GLY ? ? ? ? 133 H 
+HA2  ? GLY ? ? ? ? 134 H 
+HA3  ? GLY ? ? ? ? 135 H 
+HXT  ? GLY ? ? ? ? 136 H 
+N    ? HIS ? ? ? ? 137 N 
+CA   ? HIS ? ? ? ? 138 C 
+C    ? HIS ? ? ? ? 139 C 
+O    ? HIS ? ? ? ? 140 O 
+CB   ? HIS ? ? ? ? 141 C 
+CG   ? HIS ? ? ? ? 142 C 
+ND1  ? HIS ? ? ? ? 143 N 
+CD2  ? HIS ? ? ? ? 144 C 
+CE1  ? HIS ? ? ? ? 145 C 
+NE2  ? HIS ? ? ? ? 146 N 
+OXT  ? HIS ? ? ? ? 147 O 
+H    ? HIS ? ? ? ? 148 H 
+H2   ? HIS ? ? ? ? 149 H 
+HA   ? HIS ? ? ? ? 150 H 
+HB2  ? HIS ? ? ? ? 151 H 
+HB3  ? HIS ? ? ? ? 152 H 
+HD1  ? HIS ? ? ? ? 153 H 
+HD2  ? HIS ? ? ? ? 154 H 
+HE1  ? HIS ? ? ? ? 155 H 
+HE2  ? HIS ? ? ? ? 156 H 
+HXT  ? HIS ? ? ? ? 157 H 
+N    ? ILE ? ? ? ? 158 N 
+CA   ? ILE ? ? ? ? 159 C 
+C    ? ILE ? ? ? ? 160 C 
+O    ? ILE ? ? ? ? 161 O 
+CB   ? ILE ? ? ? ? 162 C 
+CG1  ? ILE ? ? ? ? 163 C 
+CG2  ? ILE ? ? ? ? 164 C 
+CD1  ? ILE ? ? ? ? 165 C 
+OXT  ? ILE ? ? ? ? 166 O 
+H    ? ILE ? ? ? ? 167 H 
+H2   ? ILE ? ? ? ? 168 H 
+HA   ? ILE ? ? ? ? 169 H 
+HB   ? ILE ? ? ? ? 170 H 
+HG12 ? ILE ? ? ? ? 171 H 
+HG13 ? ILE ? ? ? ? 172 H 
+HG21 ? ILE ? ? ? ? 173 H 
+HG22 ? ILE ? ? ? ? 174 H 
+HG23 ? ILE ? ? ? ? 175 H 
+HD11 ? ILE ? ? ? ? 176 H 
+HD12 ? ILE ? ? ? ? 177 H 
+HD13 ? ILE ? ? ? ? 178 H 
+HXT  ? ILE ? ? ? ? 179 H 
+N    ? LEU ? ? ? ? 180 N 
+CA   ? LEU ? ? ? ? 181 C 
+C    ? LEU ? ? ? ? 182 C 
+O    ? LEU ? ? ? ? 183 O 
+CB   ? LEU ? ? ? ? 184 C 
+CG   ? LEU ? ? ? ? 185 C 
+CD1  ? LEU ? ? ? ? 186 C 
+CD2  ? LEU ? ? ? ? 187 C 
+OXT  ? LEU ? ? ? ? 188 O 
+H    ? LEU ? ? ? ? 189 H 
+H2   ? LEU ? ? ? ? 190 H 
+HA   ? LEU ? ? ? ? 191 H 
+HB2  ? LEU ? ? ? ? 192 H 
+HB3  ? LEU ? ? ? ? 193 H 
+HG   ? LEU ? ? ? ? 194 H 
+HD11 ? LEU ? ? ? ? 195 H 
+HD12 ? LEU ? ? ? ? 196 H 
+HD13 ? LEU ? ? ? ? 197 H 
+HD21 ? LEU ? ? ? ? 198 H 
+HD22 ? LEU ? ? ? ? 199 H 
+HD23 ? LEU ? ? ? ? 200 H 
+HXT  ? LEU ? ? ? ? 201 H 
+N    ? LYS ? ? ? ? 202 N 
+CA   ? LYS ? ? ? ? 203 C 
+C    ? LYS ? ? ? ? 204 C 
+O    ? LYS ? ? ? ? 205 O 
+CB   ? LYS ? ? ? ? 206 C 
+CG   ? LYS ? ? ? ? 207 C 
+CD   ? LYS ? ? ? ? 208 C 
+CE   ? LYS ? ? ? ? 209 C 
+NZ   ? LYS ? ? ? ? 210 N 
+OXT  ? LYS ? ? ? ? 211 O 
+H    ? LYS ? ? ? ? 212 H 
+H2   ? LYS ? ? ? ? 213 H 
+HA   ? LYS ? ? ? ? 214 H 
+HB2  ? LYS ? ? ? ? 215 H 
+HB3  ? LYS ? ? ? ? 216 H 
+HG2  ? LYS ? ? ? ? 217 H 
+HG3  ? LYS ? ? ? ? 218 H 
+HD2  ? LYS ? ? ? ? 219 H 
+HD3  ? LYS ? ? ? ? 220 H 
+HE2  ? LYS ? ? ? ? 221 H 
+HE3  ? LYS ? ? ? ? 222 H 
+HZ1  ? LYS ? ? ? ? 223 H 
+HZ2  ? LYS ? ? ? ? 224 H 
+HZ3  ? LYS ? ? ? ? 225 H 
+HXT  ? LYS ? ? ? ? 226 H 
+N    ? MET ? ? ? ? 227 N 
+CA   ? MET ? ? ? ? 228 C 
+C    ? MET ? ? ? ? 229 C 
+O    ? MET ? ? ? ? 230 O 
+CB   ? MET ? ? ? ? 231 C 
+CG   ? MET ? ? ? ? 232 C 
+SD   ? MET ? ? ? ? 233 S 
+CE   ? MET ? ? ? ? 234 C 
+OXT  ? MET ? ? ? ? 235 O 
+H    ? MET ? ? ? ? 236 H 
+H2   ? MET ? ? ? ? 237 H 
+HA   ? MET ? ? ? ? 238 H 
+HB2  ? MET ? ? ? ? 239 H 
+HB3  ? MET ? ? ? ? 240 H 
+HG2  ? MET ? ? ? ? 241 H 
+HG3  ? MET ? ? ? ? 242 H 
+HE1  ? MET ? ? ? ? 243 H 
+HE2  ? MET ? ? ? ? 244 H 
+HE3  ? MET ? ? ? ? 245 H 
+HXT  ? MET ? ? ? ? 246 H 
+N    ? PHE ? ? ? ? 247 N 
+CA   ? PHE ? ? ? ? 248 C 
+C    ? PHE ? ? ? ? 249 C 
+O    ? PHE ? ? ? ? 250 O 
+CB   ? PHE ? ? ? ? 251 C 
+CG   ? PHE ? ? ? ? 252 C 
+CD1  ? PHE ? ? ? ? 253 C 
+CD2  ? PHE ? ? ? ? 254 C 
+CE1  ? PHE ? ? ? ? 255 C 
+CE2  ? PHE ? ? ? ? 256 C 
+CZ   ? PHE ? ? ? ? 257 C 
+OXT  ? PHE ? ? ? ? 258 O 
+H    ? PHE ? ? ? ? 259 H 
+H2   ? PHE ? ? ? ? 260 H 
+HA   ? PHE ? ? ? ? 261 H 
+HB2  ? PHE ? ? ? ? 262 H 
+HB3  ? PHE ? ? ? ? 263 H 
+HD1  ? PHE ? ? ? ? 264 H 
+HD2  ? PHE ? ? ? ? 265 H 
+HE1  ? PHE ? ? ? ? 266 H 
+HE2  ? PHE ? ? ? ? 267 H 
+HZ   ? PHE ? ? ? ? 268 H 
+HXT  ? PHE ? ? ? ? 269 H 
+N    ? PRO ? ? ? ? 270 N 
+CA   ? PRO ? ? ? ? 271 C 
+C    ? PRO ? ? ? ? 272 C 
+O    ? PRO ? ? ? ? 273 O 
+CB   ? PRO ? ? ? ? 274 C 
+CG   ? PRO ? ? ? ? 275 C 
+CD   ? PRO ? ? ? ? 276 C 
+OXT  ? PRO ? ? ? ? 277 O 
+H    ? PRO ? ? ? ? 278 H 
+HA   ? PRO ? ? ? ? 279 H 
+HB2  ? PRO ? ? ? ? 280 H 
+HB3  ? PRO ? ? ? ? 281 H 
+HG2  ? PRO ? ? ? ? 282 H 
+HG3  ? PRO ? ? ? ? 283 H 
+HD2  ? PRO ? ? ? ? 284 H 
+HD3  ? PRO ? ? ? ? 285 H 
+HXT  ? PRO ? ? ? ? 286 H 
+N    ? SER ? ? ? ? 287 N 
+CA   ? SER ? ? ? ? 288 C 
+C    ? SER ? ? ? ? 289 C 
+O    ? SER ? ? ? ? 290 O 
+CB   ? SER ? ? ? ? 291 C 
+OG   ? SER ? ? ? ? 292 O 
+OXT  ? SER ? ? ? ? 293 O 
+H    ? SER ? ? ? ? 294 H 
+H2   ? SER ? ? ? ? 295 H 
+HA   ? SER ? ? ? ? 296 H 
+HB2  ? SER ? ? ? ? 297 H 
+HB3  ? SER ? ? ? ? 298 H 
+HG   ? SER ? ? ? ? 299 H 
+HXT  ? SER ? ? ? ? 300 H 
+N    ? THR ? ? ? ? 301 N 
+CA   ? THR ? ? ? ? 302 C 
+C    ? THR ? ? ? ? 303 C 
+O    ? THR ? ? ? ? 304 O 
+CB   ? THR ? ? ? ? 305 C 
+OG1  ? THR ? ? ? ? 306 O 
+CG2  ? THR ? ? ? ? 307 C 
+OXT  ? THR ? ? ? ? 308 O 
+H    ? THR ? ? ? ? 309 H 
+H2   ? THR ? ? ? ? 310 H 
+HA   ? THR ? ? ? ? 311 H 
+HB   ? THR ? ? ? ? 312 H 
+HG1  ? THR ? ? ? ? 313 H 
+HG21 ? THR ? ? ? ? 314 H 
+HG22 ? THR ? ? ? ? 315 H 
+HG23 ? THR ? ? ? ? 316 H 
+HXT  ? THR ? ? ? ? 317 H 
+N    ? TRP ? ? ? ? 318 N 
+CA   ? TRP ? ? ? ? 319 C 
+C    ? TRP ? ? ? ? 320 C 
+O    ? TRP ? ? ? ? 321 O 
+CB   ? TRP ? ? ? ? 322 C 
+CG   ? TRP ? ? ? ? 323 C 
+CD1  ? TRP ? ? ? ? 324 C 
+CD2  ? TRP ? ? ? ? 325 C 
+NE1  ? TRP ? ? ? ? 326 N 
+CE2  ? TRP ? ? ? ? 327 C 
+CE3  ? TRP ? ? ? ? 328 C 
+CZ2  ? TRP ? ? ? ? 329 C 
+CZ3  ? TRP ? ? ? ? 330 C 
+CH2  ? TRP ? ? ? ? 331 C 
+OXT  ? TRP ? ? ? ? 332 O 
+H    ? TRP ? ? ? ? 333 H 
+H2   ? TRP ? ? ? ? 334 H 
+HA   ? TRP ? ? ? ? 335 H 
+HB2  ? TRP ? ? ? ? 336 H 
+HB3  ? TRP ? ? ? ? 337 H 
+HD1  ? TRP ? ? ? ? 338 H 
+HE1  ? TRP ? ? ? ? 339 H 
+HE3  ? TRP ? ? ? ? 340 H 
+HZ2  ? TRP ? ? ? ? 341 H 
+HZ3  ? TRP ? ? ? ? 342 H 
+HH2  ? TRP ? ? ? ? 343 H 
+HXT  ? TRP ? ? ? ? 344 H 
+N    ? TYR ? ? ? ? 345 N 
+CA   ? TYR ? ? ? ? 346 C 
+C    ? TYR ? ? ? ? 347 C 
+O    ? TYR ? ? ? ? 348 O 
+CB   ? TYR ? ? ? ? 349 C 
+CG   ? TYR ? ? ? ? 350 C 
+CD1  ? TYR ? ? ? ? 351 C 
+CD2  ? TYR ? ? ? ? 352 C 
+CE1  ? TYR ? ? ? ? 353 C 
+CE2  ? TYR ? ? ? ? 354 C 
+CZ   ? TYR ? ? ? ? 355 C 
+OH   ? TYR ? ? ? ? 356 O 
+OXT  ? TYR ? ? ? ? 357 O 
+H    ? TYR ? ? ? ? 358 H 
+H2   ? TYR ? ? ? ? 359 H 
+HA   ? TYR ? ? ? ? 360 H 
+HB2  ? TYR ? ? ? ? 361 H 
+HB3  ? TYR ? ? ? ? 362 H 
+HD1  ? TYR ? ? ? ? 363 H 
+HD2  ? TYR ? ? ? ? 364 H 
+HE1  ? TYR ? ? ? ? 365 H 
+HE2  ? TYR ? ? ? ? 366 H 
+HH   ? TYR ? ? ? ? 367 H 
+HXT  ? TYR ? ? ? ? 368 H 
+N    ? VAL ? ? ? ? 369 N 
+CA   ? VAL ? ? ? ? 370 C 
+C    ? VAL ? ? ? ? 371 C 
+O    ? VAL ? ? ? ? 372 O 
+CB   ? VAL ? ? ? ? 373 C 
+CG1  ? VAL ? ? ? ? 374 C 
+CG2  ? VAL ? ? ? ? 375 C 
+OXT  ? VAL ? ? ? ? 376 O 
+H    ? VAL ? ? ? ? 377 H 
+H2   ? VAL ? ? ? ? 378 H 
+HA   ? VAL ? ? ? ? 379 H 
+HB   ? VAL ? ? ? ? 380 H 
+HG11 ? VAL ? ? ? ? 381 H 
+HG12 ? VAL ? ? ? ? 382 H 
+HG13 ? VAL ? ? ? ? 383 H 
+HG21 ? VAL ? ? ? ? 384 H 
+HG22 ? VAL ? ? ? ? 385 H 
+HG23 ? VAL ? ? ? ? 386 H 
+HXT  ? VAL ? ? ? ? 387 H 
+#
+loop_
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.comp_id
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.value_order
+N   CA   ALA N N sing 
+N   H    ALA N N sing 
+N   H2   ALA N N sing 
+CA  C    ALA N N sing 
+CA  CB   ALA N N sing 
+CA  HA   ALA N N sing 
+C   O    ALA N N doub 
+C   OXT  ALA N N sing 
+CB  HB1  ALA N N sing 
+CB  HB2  ALA N N sing 
+CB  HB3  ALA N N sing 
+OXT HXT  ALA N N sing 
+N   CA   ARG N N sing 
+N   H    ARG N N sing 
+N   H2   ARG N N sing 
+CA  C    ARG N N sing 
+CA  CB   ARG N N sing 
+CA  HA   ARG N N sing 
+C   O    ARG N N doub 
+C   OXT  ARG N N sing 
+CB  CG   ARG N N sing 
+CB  HB2  ARG N N sing 
+CB  HB3  ARG N N sing 
+CG  CD   ARG N N sing 
+CG  HG2  ARG N N sing 
+CG  HG3  ARG N N sing 
+CD  NE   ARG N N sing 
+CD  HD2  ARG N N sing 
+CD  HD3  ARG N N sing 
+NE  CZ   ARG N N sing 
+NE  HE   ARG N N sing 
+CZ  NH1  ARG N N sing 
+CZ  NH2  ARG N N doub 
+NH1 HH11 ARG N N sing 
+NH1 HH12 ARG N N sing 
+NH2 HH21 ARG N N sing 
+NH2 HH22 ARG N N sing 
+OXT HXT  ARG N N sing 
+N   CA   ASN N N sing 
+N   H    ASN N N sing 
+N   H2   ASN N N sing 
+CA  C    ASN N N sing 
+CA  CB   ASN N N sing 
+CA  HA   ASN N N sing 
+C   O    ASN N N doub 
+C   OXT  ASN N N sing 
+CB  CG   ASN N N sing 
+CB  HB2  ASN N N sing 
+CB  HB3  ASN N N sing 
+CG  OD1  ASN N N doub 
+CG  ND2  ASN N N sing 
+ND2 HD21 ASN N N sing 
+ND2 HD22 ASN N N sing 
+OXT HXT  ASN N N sing 
+N   CA   ASP N N sing 
+N   H    ASP N N sing 
+N   H2   ASP N N sing 
+CA  C    ASP N N sing 
+CA  CB   ASP N N sing 
+CA  HA   ASP N N sing 
+C   O    ASP N N doub 
+C   OXT  ASP N N sing 
+CB  CG   ASP N N sing 
+CB  HB2  ASP N N sing 
+CB  HB3  ASP N N sing 
+CG  OD1  ASP N N doub 
+CG  OD2  ASP N N sing 
+OD2 HD2  ASP N N sing 
+OXT HXT  ASP N N sing 
+N   CA   CYS N N sing 
+N   H    CYS N N sing 
+N   H2   CYS N N sing 
+CA  C    CYS N N sing 
+CA  CB   CYS N N sing 
+CA  HA   CYS N N sing 
+C   O    CYS N N doub 
+C   OXT  CYS N N sing 
+CB  SG   CYS N N sing 
+CB  HB2  CYS N N sing 
+CB  HB3  CYS N N sing 
+SG  HG   CYS N N sing 
+OXT HXT  CYS N N sing 
+N   CA   GLN N N sing 
+N   H    GLN N N sing 
+N   H2   GLN N N sing 
+CA  C    GLN N N sing 
+CA  CB   GLN N N sing 
+CA  HA   GLN N N sing 
+C   O    GLN N N doub 
+C   OXT  GLN N N sing 
+CB  CG   GLN N N sing 
+CB  HB2  GLN N N sing 
+CB  HB3  GLN N N sing 
+CG  CD   GLN N N sing 
+CG  HG2  GLN N N sing 
+CG  HG3  GLN N N sing 
+CD  OE1  GLN N N doub 
+CD  NE2  GLN N N sing 
+NE2 HE21 GLN N N sing 
+NE2 HE22 GLN N N sing 
+OXT HXT  GLN N N sing 
+N   CA   GLU N N sing 
+N   H    GLU N N sing 
+N   H2   GLU N N sing 
+CA  C    GLU N N sing 
+CA  CB   GLU N N sing 
+CA  HA   GLU N N sing 
+C   O    GLU N N doub 
+C   OXT  GLU N N sing 
+CB  CG   GLU N N sing 
+CB  HB2  GLU N N sing 
+CB  HB3  GLU N N sing 
+CG  CD   GLU N N sing 
+CG  HG2  GLU N N sing 
+CG  HG3  GLU N N sing 
+CD  OE1  GLU N N doub 
+CD  OE2  GLU N N sing 
+OE2 HE2  GLU N N sing 
+OXT HXT  GLU N N sing 
+N   CA   GLY N N sing 
+N   H    GLY N N sing 
+N   H2   GLY N N sing 
+CA  C    GLY N N sing 
+CA  HA2  GLY N N sing 
+CA  HA3  GLY N N sing 
+C   O    GLY N N doub 
+C   OXT  GLY N N sing 
+OXT HXT  GLY N N sing 
+N   CA   HIS N N sing 
+N   H    HIS N N sing 
+N   H2   HIS N N sing 
+CA  C    HIS N N sing 
+CA  CB   HIS N N sing 
+CA  HA   HIS N N sing 
+C   O    HIS N N doub 
+C   OXT  HIS N N sing 
+CB  CG   HIS N N sing 
+CB  HB2  HIS N N sing 
+CB  HB3  HIS N N sing 
+CG  ND1  HIS Y N sing 
+CG  CD2  HIS Y N doub 
+ND1 CE1  HIS Y N doub 
+ND1 HD1  HIS N N sing 
+CD2 NE2  HIS Y N sing 
+CD2 HD2  HIS N N sing 
+CE1 NE2  HIS Y N sing 
+CE1 HE1  HIS N N sing 
+NE2 HE2  HIS N N sing 
+OXT HXT  HIS N N sing 
+N   CA   ILE N N sing 
+N   H    ILE N N sing 
+N   H2   ILE N N sing 
+CA  C    ILE N N sing 
+CA  CB   ILE N N sing 
+CA  HA   ILE N N sing 
+C   O    ILE N N doub 
+C   OXT  ILE N N sing 
+CB  CG1  ILE N N sing 
+CB  CG2  ILE N N sing 
+CB  HB   ILE N N sing 
+CG1 CD1  ILE N N sing 
+CG1 HG12 ILE N N sing 
+CG1 HG13 ILE N N sing 
+CG2 HG21 ILE N N sing 
+CG2 HG22 ILE N N sing 
+CG2 HG23 ILE N N sing 
+CD1 HD11 ILE N N sing 
+CD1 HD12 ILE N N sing 
+CD1 HD13 ILE N N sing 
+OXT HXT  ILE N N sing 
+N   CA   LEU N N sing 
+N   H    LEU N N sing 
+N   H2   LEU N N sing 
+CA  C    LEU N N sing 
+CA  CB   LEU N N sing 
+CA  HA   LEU N N sing 
+C   O    LEU N N doub 
+C   OXT  LEU N N sing 
+CB  CG   LEU N N sing 
+CB  HB2  LEU N N sing 
+CB  HB3  LEU N N sing 
+CG  CD1  LEU N N sing 
+CG  CD2  LEU N N sing 
+CG  HG   LEU N N sing 
+CD1 HD11 LEU N N sing 
+CD1 HD12 LEU N N sing 
+CD1 HD13 LEU N N sing 
+CD2 HD21 LEU N N sing 
+CD2 HD22 LEU N N sing 
+CD2 HD23 LEU N N sing 
+OXT HXT  LEU N N sing 
+N   CA   LYS N N sing 
+N   H    LYS N N sing 
+N   H2   LYS N N sing 
+CA  C    LYS N N sing 
+CA  CB   LYS N N sing 
+CA  HA   LYS N N sing 
+C   O    LYS N N doub 
+C   OXT  LYS N N sing 
+CB  CG   LYS N N sing 
+CB  HB2  LYS N N sing 
+CB  HB3  LYS N N sing 
+CG  CD   LYS N N sing 
+CG  HG2  LYS N N sing 
+CG  HG3  LYS N N sing 
+CD  CE   LYS N N sing 
+CD  HD2  LYS N N sing 
+CD  HD3  LYS N N sing 
+CE  NZ   LYS N N sing 
+CE  HE2  LYS N N sing 
+CE  HE3  LYS N N sing 
+NZ  HZ1  LYS N N sing 
+NZ  HZ2  LYS N N sing 
+NZ  HZ3  LYS N N sing 
+OXT HXT  LYS N N sing 
+N   CA   MET N N sing 
+N   H    MET N N sing 
+N   H2   MET N N sing 
+CA  C    MET N N sing 
+CA  CB   MET N N sing 
+CA  HA   MET N N sing 
+C   O    MET N N doub 
+C   OXT  MET N N sing 
+CB  CG   MET N N sing 
+CB  HB2  MET N N sing 
+CB  HB3  MET N N sing 
+CG  SD   MET N N sing 
+CG  HG2  MET N N sing 
+CG  HG3  MET N N sing 
+SD  CE   MET N N sing 
+CE  HE1  MET N N sing 
+CE  HE2  MET N N sing 
+CE  HE3  MET N N sing 
+OXT HXT  MET N N sing 
+N   CA   PHE N N sing 
+N   H    PHE N N sing 
+N   H2   PHE N N sing 
+CA  C    PHE N N sing 
+CA  CB   PHE N N sing 
+CA  HA   PHE N N sing 
+C   O    PHE N N doub 
+C   OXT  PHE N N sing 
+CB  CG   PHE N N sing 
+CB  HB2  PHE N N sing 
+CB  HB3  PHE N N sing 
+CG  CD1  PHE Y N doub 
+CG  CD2  PHE Y N sing 
+CD1 CE1  PHE Y N sing 
+CD1 HD1  PHE N N sing 
+CD2 CE2  PHE Y N doub 
+CD2 HD2  PHE N N sing 
+CE1 CZ   PHE Y N doub 
+CE1 HE1  PHE N N sing 
+CE2 CZ   PHE Y N sing 
+CE2 HE2  PHE N N sing 
+CZ  HZ   PHE N N sing 
+OXT HXT  PHE N N sing 
+N   CA   PRO N N sing 
+N   CD   PRO N N sing 
+N   H    PRO N N sing 
+CA  C    PRO N N sing 
+CA  CB   PRO N N sing 
+CA  HA   PRO N N sing 
+C   O    PRO N N doub 
+C   OXT  PRO N N sing 
+CB  CG   PRO N N sing 
+CB  HB2  PRO N N sing 
+CB  HB3  PRO N N sing 
+CG  CD   PRO N N sing 
+CG  HG2  PRO N N sing 
+CG  HG3  PRO N N sing 
+CD  HD2  PRO N N sing 
+CD  HD3  PRO N N sing 
+OXT HXT  PRO N N sing 
+N   CA   SER N N sing 
+N   H    SER N N sing 
+N   H2   SER N N sing 
+CA  C    SER N N sing 
+CA  CB   SER N N sing 
+CA  HA   SER N N sing 
+C   O    SER N N doub 
+C   OXT  SER N N sing 
+CB  OG   SER N N sing 
+CB  HB2  SER N N sing 
+CB  HB3  SER N N sing 
+OG  HG   SER N N sing 
+OXT HXT  SER N N sing 
+N   CA   THR N N sing 
+N   H    THR N N sing 
+N   H2   THR N N sing 
+CA  C    THR N N sing 
+CA  CB   THR N N sing 
+CA  HA   THR N N sing 
+C   O    THR N N doub 
+C   OXT  THR N N sing 
+CB  OG1  THR N N sing 
+CB  CG2  THR N N sing 
+CB  HB   THR N N sing 
+OG1 HG1  THR N N sing 
+CG2 HG21 THR N N sing 
+CG2 HG22 THR N N sing 
+CG2 HG23 THR N N sing 
+OXT HXT  THR N N sing 
+N   CA   TRP N N sing 
+N   H    TRP N N sing 
+N   H2   TRP N N sing 
+CA  C    TRP N N sing 
+CA  CB   TRP N N sing 
+CA  HA   TRP N N sing 
+C   O    TRP N N doub 
+C   OXT  TRP N N sing 
+CB  CG   TRP N N sing 
+CB  HB2  TRP N N sing 
+CB  HB3  TRP N N sing 
+CG  CD1  TRP Y N doub 
+CG  CD2  TRP Y N sing 
+CD1 NE1  TRP Y N sing 
+CD1 HD1  TRP N N sing 
+CD2 CE2  TRP Y N doub 
+CD2 CE3  TRP Y N sing 
+NE1 CE2  TRP Y N sing 
+NE1 HE1  TRP N N sing 
+CE2 CZ2  TRP Y N sing 
+CE3 CZ3  TRP Y N doub 
+CE3 HE3  TRP N N sing 
+CZ2 CH2  TRP Y N doub 
+CZ2 HZ2  TRP N N sing 
+CZ3 CH2  TRP Y N sing 
+CZ3 HZ3  TRP N N sing 
+CH2 HH2  TRP N N sing 
+OXT HXT  TRP N N sing 
+N   CA   TYR N N sing 
+N   H    TYR N N sing 
+N   H2   TYR N N sing 
+CA  C    TYR N N sing 
+CA  CB   TYR N N sing 
+CA  HA   TYR N N sing 
+C   O    TYR N N doub 
+C   OXT  TYR N N sing 
+CB  CG   TYR N N sing 
+CB  HB2  TYR N N sing 
+CB  HB3  TYR N N sing 
+CG  CD1  TYR Y N doub 
+CG  CD2  TYR Y N sing 
+CD1 CE1  TYR Y N sing 
+CD1 HD1  TYR N N sing 
+CD2 CE2  TYR Y N doub 
+CD2 HD2  TYR N N sing 
+CE1 CZ   TYR Y N doub 
+CE1 HE1  TYR N N sing 
+CE2 CZ   TYR Y N sing 
+CE2 HE2  TYR N N sing 
+CZ  OH   TYR N N sing 
+OH  HH   TYR N N sing 
+OXT HXT  TYR N N sing 
+N   CA   VAL N N sing 
+N   H    VAL N N sing 
+N   H2   VAL N N sing 
+CA  C    VAL N N sing 
+CA  CB   VAL N N sing 
+CA  HA   VAL N N sing 
+C   O    VAL N N doub 
+C   OXT  VAL N N sing 
+CB  CG1  VAL N N sing 
+CB  CG2  VAL N N sing 
+CB  HB   VAL N N sing 
+CG1 HG11 VAL N N sing 
+CG1 HG12 VAL N N sing 
+CG1 HG13 VAL N N sing 
+CG2 HG21 VAL N N sing 
+CG2 HG22 VAL N N sing 
+CG2 HG23 VAL N N sing 
+OXT HXT  VAL N N sing 
+#
+_entity.id               13
+_entity.pdbx_description "Mitotic checkpoint serine/threonine-protein kinase BUB1 beta"
+_entity.type             polymer
+#
+_entity_poly.entity_id      13
+_entity_poly.pdbx_strand_id Q
+_entity_poly.type           polypeptide(L)
+#
+loop_
+_entity_poly_seq.entity_id
+_entity_poly_seq.hetero
+_entity_poly_seq.mon_id
+_entity_poly_seq.num
+13 n MET 1    
+13 n ALA 2    
+13 n ALA 3    
+13 n VAL 4    
+13 n LYS 5    
+13 n LYS 6    
+13 n GLU 7    
+13 n GLY 8    
+13 n GLY 9    
+13 n ALA 10   
+13 n LEU 11   
+13 n SER 12   
+13 n GLU 13   
+13 n ALA 14   
+13 n MET 15   
+13 n SER 16   
+13 n LEU 17   
+13 n GLU 18   
+13 n GLY 19   
+13 n ASP 20   
+13 n GLU 21   
+13 n TRP 22   
+13 n GLU 23   
+13 n LEU 24   
+13 n SER 25   
+13 n LYS 26   
+13 n GLU 27   
+13 n ASN 28   
+13 n VAL 29   
+13 n GLN 30   
+13 n PRO 31   
+13 n LEU 32   
+13 n ARG 33   
+13 n GLN 34   
+13 n GLY 35   
+13 n ARG 36   
+13 n ILE 37   
+13 n MET 38   
+13 n SER 39   
+13 n THR 40   
+13 n LEU 41   
+13 n GLN 42   
+13 n GLY 43   
+13 n ALA 44   
+13 n LEU 45   
+13 n ALA 46   
+13 n GLN 47   
+13 n GLU 48   
+13 n SER 49   
+13 n ALA 50   
+13 n CYS 51   
+13 n ASN 52   
+13 n ASN 53   
+13 n THR 54   
+13 n LEU 55   
+13 n GLN 56   
+13 n GLN 57   
+13 n GLN 58   
+13 n LYS 59   
+13 n ARG 60   
+13 n ALA 61   
+13 n PHE 62   
+13 n GLU 63   
+13 n TYR 64   
+13 n GLU 65   
+13 n ILE 66   
+13 n ARG 67   
+13 n PHE 68   
+13 n TYR 69   
+13 n THR 70   
+13 n GLY 71   
+13 n ASN 72   
+13 n ASP 73   
+13 n PRO 74   
+13 n LEU 75   
+13 n ASP 76   
+13 n VAL 77   
+13 n TRP 78   
+13 n ASP 79   
+13 n ARG 80   
+13 n TYR 81   
+13 n ILE 82   
+13 n SER 83   
+13 n TRP 84   
+13 n THR 85   
+13 n GLU 86   
+13 n GLN 87   
+13 n ASN 88   
+13 n TYR 89   
+13 n PRO 90   
+13 n GLN 91   
+13 n GLY 92   
+13 n GLY 93   
+13 n LYS 94   
+13 n GLU 95   
+13 n SER 96   
+13 n ASN 97   
+13 n MET 98   
+13 n SER 99   
+13 n THR 100  
+13 n LEU 101  
+13 n LEU 102  
+13 n GLU 103  
+13 n ARG 104  
+13 n ALA 105  
+13 n VAL 106  
+13 n GLU 107  
+13 n ALA 108  
+13 n LEU 109  
+13 n GLN 110  
+13 n GLY 111  
+13 n GLU 112  
+13 n LYS 113  
+13 n ARG 114  
+13 n TYR 115  
+13 n TYR 116  
+13 n SER 117  
+13 n ASP 118  
+13 n PRO 119  
+13 n ARG 120  
+13 n PHE 121  
+13 n LEU 122  
+13 n ASN 123  
+13 n LEU 124  
+13 n TRP 125  
+13 n LEU 126  
+13 n LYS 127  
+13 n LEU 128  
+13 n GLY 129  
+13 n ARG 130  
+13 n LEU 131  
+13 n CYS 132  
+13 n ASN 133  
+13 n GLU 134  
+13 n PRO 135  
+13 n LEU 136  
+13 n ASP 137  
+13 n MET 138  
+13 n TYR 139  
+13 n SER 140  
+13 n TYR 141  
+13 n LEU 142  
+13 n HIS 143  
+13 n ASN 144  
+13 n GLN 145  
+13 n GLY 146  
+13 n ILE 147  
+13 n GLY 148  
+13 n VAL 149  
+13 n SER 150  
+13 n LEU 151  
+13 n ALA 152  
+13 n GLN 153  
+13 n PHE 154  
+13 n TYR 155  
+13 n ILE 156  
+13 n SER 157  
+13 n TRP 158  
+13 n ALA 159  
+13 n GLU 160  
+13 n GLU 161  
+13 n TYR 162  
+13 n GLU 163  
+13 n ALA 164  
+13 n ARG 165  
+13 n GLU 166  
+13 n ASN 167  
+13 n PHE 168  
+13 n ARG 169  
+13 n LYS 170  
+13 n ALA 171  
+13 n ASP 172  
+13 n ALA 173  
+13 n ILE 174  
+13 n PHE 175  
+13 n GLN 176  
+13 n GLU 177  
+13 n GLY 178  
+13 n ILE 179  
+13 n GLN 180  
+13 n GLN 181  
+13 n LYS 182  
+13 n ALA 183  
+13 n GLU 184  
+13 n PRO 185  
+13 n LEU 186  
+13 n GLU 187  
+13 n ARG 188  
+13 n LEU 189  
+13 n GLN 190  
+13 n SER 191  
+13 n GLN 192  
+13 n HIS 193  
+13 n ARG 194  
+13 n GLN 195  
+13 n PHE 196  
+13 n GLN 197  
+13 n ALA 198  
+13 n ARG 199  
+13 n VAL 200  
+13 n SER 201  
+13 n ARG 202  
+13 n GLN 203  
+13 n THR 204  
+13 n LEU 205  
+13 n LEU 206  
+13 n ALA 207  
+13 n LEU 208  
+13 n GLU 209  
+13 n LYS 210  
+13 n GLU 211  
+13 n GLU 212  
+13 n GLU 213  
+13 n GLU 214  
+13 n GLU 215  
+13 n VAL 216  
+13 n PHE 217  
+13 n GLU 218  
+13 n SER 219  
+13 n SER 220  
+13 n VAL 221  
+13 n PRO 222  
+13 n GLN 223  
+13 n ARG 224  
+13 n SER 225  
+13 n THR 226  
+13 n LEU 227  
+13 n ALA 228  
+13 n GLU 229  
+13 n LEU 230  
+13 n LYS 231  
+13 n SER 232  
+13 n LYS 233  
+13 n GLY 234  
+13 n LYS 235  
+13 n LYS 236  
+13 n THR 237  
+13 n ALA 238  
+13 n ARG 239  
+13 n ALA 240  
+13 n PRO 241  
+13 n ILE 242  
+13 n ILE 243  
+13 n ARG 244  
+13 n VAL 245  
+13 n GLY 246  
+13 n GLY 247  
+13 n ALA 248  
+13 n LEU 249  
+13 n LYS 250  
+13 n ALA 251  
+13 n PRO 252  
+13 n SER 253  
+13 n GLN 254  
+13 n ASN 255  
+13 n ARG 256  
+13 n GLY 257  
+13 n LEU 258  
+13 n GLN 259  
+13 n ASN 260  
+13 n PRO 261  
+13 n PHE 262  
+13 n PRO 263  
+13 n GLN 264  
+13 n GLN 265  
+13 n MET 266  
+13 n GLN 267  
+13 n ASN 268  
+13 n ASN 269  
+13 n SER 270  
+13 n ARG 271  
+13 n ILE 272  
+13 n THR 273  
+13 n VAL 274  
+13 n PHE 275  
+13 n ASP 276  
+13 n GLU 277  
+13 n ASN 278  
+13 n ALA 279  
+13 n ASP 280  
+13 n GLU 281  
+13 n ALA 282  
+13 n SER 283  
+13 n THR 284  
+13 n ALA 285  
+13 n GLU 286  
+13 n LEU 287  
+13 n SER 288  
+13 n LYS 289  
+13 n PRO 290  
+13 n THR 291  
+13 n VAL 292  
+13 n GLN 293  
+13 n PRO 294  
+13 n TRP 295  
+13 n ILE 296  
+13 n ALA 297  
+13 n PRO 298  
+13 n PRO 299  
+13 n MET 300  
+13 n PRO 301  
+13 n ARG 302  
+13 n ALA 303  
+13 n LYS 304  
+13 n GLU 305  
+13 n ASN 306  
+13 n GLU 307  
+13 n LEU 308  
+13 n GLN 309  
+13 n ALA 310  
+13 n GLY 311  
+13 n PRO 312  
+13 n TRP 313  
+13 n ASN 314  
+13 n THR 315  
+13 n GLY 316  
+13 n ARG 317  
+13 n SER 318  
+13 n LEU 319  
+13 n GLU 320  
+13 n HIS 321  
+13 n ARG 322  
+13 n PRO 323  
+13 n ARG 324  
+13 n GLY 325  
+13 n ASN 326  
+13 n THR 327  
+13 n ALA 328  
+13 n SER 329  
+13 n LEU 330  
+13 n ILE 331  
+13 n ALA 332  
+13 n VAL 333  
+13 n PRO 334  
+13 n ALA 335  
+13 n VAL 336  
+13 n LEU 337  
+13 n PRO 338  
+13 n SER 339  
+13 n PHE 340  
+13 n THR 341  
+13 n PRO 342  
+13 n TYR 343  
+13 n VAL 344  
+13 n GLU 345  
+13 n GLU 346  
+13 n THR 347  
+13 n ALA 348  
+13 n ARG 349  
+13 n GLN 350  
+13 n PRO 351  
+13 n VAL 352  
+13 n MET 353  
+13 n THR 354  
+13 n PRO 355  
+13 n CYS 356  
+13 n LYS 357  
+13 n ILE 358  
+13 n GLU 359  
+13 n PRO 360  
+13 n SER 361  
+13 n ILE 362  
+13 n ASN 363  
+13 n HIS 364  
+13 n ILE 365  
+13 n LEU 366  
+13 n GLU 367  
+13 n THR 368  
+13 n ARG 369  
+13 n LYS 370  
+13 n PRO 371  
+13 n GLY 372  
+13 n LYS 373  
+13 n GLU 374  
+13 n GLU 375  
+13 n GLY 376  
+13 n ASP 377  
+13 n PRO 378  
+13 n LEU 379  
+13 n GLN 380  
+13 n ARG 381  
+13 n VAL 382  
+13 n GLN 383  
+13 n SER 384  
+13 n HIS 385  
+13 n GLN 386  
+13 n GLN 387  
+13 n ALA 388  
+13 n SER 389  
+13 n GLU 390  
+13 n GLU 391  
+13 n LYS 392  
+13 n LYS 393  
+13 n GLU 394  
+13 n LYS 395  
+13 n MET 396  
+13 n MET 397  
+13 n TYR 398  
+13 n CYS 399  
+13 n LYS 400  
+13 n GLU 401  
+13 n LYS 402  
+13 n ILE 403  
+13 n TYR 404  
+13 n ALA 405  
+13 n GLY 406  
+13 n VAL 407  
+13 n GLY 408  
+13 n GLU 409  
+13 n PHE 410  
+13 n SER 411  
+13 n PHE 412  
+13 n GLU 413  
+13 n GLU 414  
+13 n ILE 415  
+13 n ARG 416  
+13 n ALA 417  
+13 n GLU 418  
+13 n VAL 419  
+13 n PHE 420  
+13 n ARG 421  
+13 n LYS 422  
+13 n LYS 423  
+13 n LEU 424  
+13 n LYS 425  
+13 n GLU 426  
+13 n GLN 427  
+13 n ARG 428  
+13 n GLU 429  
+13 n ALA 430  
+13 n GLU 431  
+13 n LEU 432  
+13 n LEU 433  
+13 n THR 434  
+13 n GLU 435  
+13 n ALA 436  
+13 n GLU 437  
+13 n LYS 438  
+13 n ARG 439  
+13 n ALA 440  
+13 n GLU 441  
+13 n MET 442  
+13 n GLN 443  
+13 n LYS 444  
+13 n GLN 445  
+13 n ILE 446  
+13 n GLU 447  
+13 n GLU 448  
+13 n MET 449  
+13 n GLU 450  
+13 n LYS 451  
+13 n LYS 452  
+13 n LEU 453  
+13 n LYS 454  
+13 n GLU 455  
+13 n ILE 456  
+13 n GLN 457  
+13 n THR 458  
+13 n THR 459  
+13 n GLN 460  
+13 n GLN 461  
+13 n GLU 462  
+13 n ARG 463  
+13 n THR 464  
+13 n GLY 465  
+13 n ASP 466  
+13 n GLN 467  
+13 n GLN 468  
+13 n GLU 469  
+13 n GLU 470  
+13 n THR 471  
+13 n MET 472  
+13 n PRO 473  
+13 n THR 474  
+13 n LYS 475  
+13 n GLU 476  
+13 n THR 477  
+13 n THR 478  
+13 n LYS 479  
+13 n LEU 480  
+13 n GLN 481  
+13 n ILE 482  
+13 n ALA 483  
+13 n SER 484  
+13 n GLU 485  
+13 n SER 486  
+13 n GLN 487  
+13 n LYS 488  
+13 n ILE 489  
+13 n PRO 490  
+13 n GLY 491  
+13 n MET 492  
+13 n THR 493  
+13 n LEU 494  
+13 n SER 495  
+13 n SER 496  
+13 n SER 497  
+13 n VAL 498  
+13 n CYS 499  
+13 n GLN 500  
+13 n VAL 501  
+13 n ASN 502  
+13 n CYS 503  
+13 n CYS 504  
+13 n ALA 505  
+13 n ARG 506  
+13 n GLU 507  
+13 n THR 508  
+13 n SER 509  
+13 n LEU 510  
+13 n ALA 511  
+13 n GLU 512  
+13 n ASN 513  
+13 n ILE 514  
+13 n TRP 515  
+13 n GLN 516  
+13 n GLU 517  
+13 n GLN 518  
+13 n PRO 519  
+13 n HIS 520  
+13 n SER 521  
+13 n LYS 522  
+13 n GLY 523  
+13 n PRO 524  
+13 n SER 525  
+13 n VAL 526  
+13 n PRO 527  
+13 n PHE 528  
+13 n SER 529  
+13 n ILE 530  
+13 n PHE 531  
+13 n ASP 532  
+13 n GLU 533  
+13 n PHE 534  
+13 n LEU 535  
+13 n LEU 536  
+13 n SER 537  
+13 n GLU 538  
+13 n LYS 539  
+13 n LYS 540  
+13 n ASN 541  
+13 n LYS 542  
+13 n GLU 543  
+13 n PRO 544  
+13 n PRO 545  
+13 n ALA 546  
+13 n ASP 547  
+13 n PRO 548  
+13 n PRO 549  
+13 n ARG 550  
+13 n VAL 551  
+13 n LEU 552  
+13 n ALA 553  
+13 n GLN 554  
+13 n ARG 555  
+13 n ARG 556  
+13 n PRO 557  
+13 n LEU 558  
+13 n ALA 559  
+13 n VAL 560  
+13 n LEU 561  
+13 n LYS 562  
+13 n THR 563  
+13 n SER 564  
+13 n GLU 565  
+13 n SER 566  
+13 n ILE 567  
+13 n THR 568  
+13 n SER 569  
+13 n ASN 570  
+13 n GLU 571  
+13 n ASP 572  
+13 n VAL 573  
+13 n SER 574  
+13 n PRO 575  
+13 n ASP 576  
+13 n VAL 577  
+13 n CYS 578  
+13 n ASP 579  
+13 n GLU 580  
+13 n PHE 581  
+13 n THR 582  
+13 n GLY 583  
+13 n ILE 584  
+13 n GLU 585  
+13 n PRO 586  
+13 n LEU 587  
+13 n SER 588  
+13 n GLU 589  
+13 n ASP 590  
+13 n ALA 591  
+13 n ILE 592  
+13 n ILE 593  
+13 n THR 594  
+13 n GLY 595  
+13 n PHE 596  
+13 n ARG 597  
+13 n ASN 598  
+13 n VAL 599  
+13 n GLU 600  
+13 n ILE 601  
+13 n CYS 602  
+13 n PRO 603  
+13 n ASN 604  
+13 n PRO 605  
+13 n GLU 606  
+13 n ASP 607  
+13 n THR 608  
+13 n CYS 609  
+13 n ASP 610  
+13 n PHE 611  
+13 n ALA 612  
+13 n ARG 613  
+13 n ALA 614  
+13 n ALA 615  
+13 n ARG 616  
+13 n PHE 617  
+13 n VAL 618  
+13 n SER 619  
+13 n THR 620  
+13 n PRO 621  
+13 n PHE 622  
+13 n HIS 623  
+13 n GLU 624  
+13 n ILE 625  
+13 n MET 626  
+13 n SER 627  
+13 n LEU 628  
+13 n LYS 629  
+13 n ASP 630  
+13 n LEU 631  
+13 n PRO 632  
+13 n SER 633  
+13 n ASP 634  
+13 n PRO 635  
+13 n GLU 636  
+13 n ARG 637  
+13 n LEU 638  
+13 n LEU 639  
+13 n PRO 640  
+13 n GLU 641  
+13 n GLU 642  
+13 n ASP 643  
+13 n LEU 644  
+13 n ASP 645  
+13 n VAL 646  
+13 n LYS 647  
+13 n THR 648  
+13 n SER 649  
+13 n GLU 650  
+13 n ASP 651  
+13 n GLN 652  
+13 n GLN 653  
+13 n THR 654  
+13 n ALA 655  
+13 n CYS 656  
+13 n GLY 657  
+13 n THR 658  
+13 n ILE 659  
+13 n TYR 660  
+13 n SER 661  
+13 n GLN 662  
+13 n THR 663  
+13 n LEU 664  
+13 n GLU 665  
+13 n ILE 666  
+13 n LYS 667  
+13 n LYS 668  
+13 n LEU 669  
+13 n GLU 670  
+13 n PRO 671  
+13 n ILE 672  
+13 n ILE 673  
+13 n GLU 674  
+13 n ASP 675  
+13 n SER 676  
+13 n ARG 677  
+13 n GLU 678  
+13 n ALA 679  
+13 n THR 680  
+13 n HIS 681  
+13 n SER 682  
+13 n SER 683  
+13 n GLY 684  
+13 n PHE 685  
+13 n SER 686  
+13 n GLY 687  
+13 n SER 688  
+13 n SER 689  
+13 n ALA 690  
+13 n SER 691  
+13 n VAL 692  
+13 n ALA 693  
+13 n SER 694  
+13 n THR 695  
+13 n SER 696  
+13 n SER 697  
+13 n ILE 698  
+13 n LYS 699  
+13 n CYS 700  
+13 n LEU 701  
+13 n GLN 702  
+13 n ILE 703  
+13 n PRO 704  
+13 n GLU 705  
+13 n LYS 706  
+13 n LEU 707  
+13 n GLU 708  
+13 n LEU 709  
+13 n THR 710  
+13 n ASN 711  
+13 n GLU 712  
+13 n THR 713  
+13 n SER 714  
+13 n GLU 715  
+13 n ASN 716  
+13 n PRO 717  
+13 n THR 718  
+13 n GLN 719  
+13 n GLU 720  
+13 n PRO 721  
+13 n TRP 722  
+13 n CYS 723  
+13 n SER 724  
+13 n GLN 725  
+13 n TYR 726  
+13 n ARG 727  
+13 n ARG 728  
+13 n GLN 729  
+13 n LEU 730  
+13 n LEU 731  
+13 n LYS 732  
+13 n SER 733  
+13 n LEU 734  
+13 n PRO 735  
+13 n GLU 736  
+13 n LEU 737  
+13 n SER 738  
+13 n ALA 739  
+13 n SER 740  
+13 n ALA 741  
+13 n GLU 742  
+13 n LEU 743  
+13 n CYS 744  
+13 n ILE 745  
+13 n GLU 746  
+13 n ASP 747  
+13 n ARG 748  
+13 n PRO 749  
+13 n MET 750  
+13 n PRO 751  
+13 n LYS 752  
+13 n LEU 753  
+13 n GLU 754  
+13 n ILE 755  
+13 n GLU 756  
+13 n LYS 757  
+13 n GLU 758  
+13 n ILE 759  
+13 n GLU 760  
+13 n LEU 761  
+13 n GLY 762  
+13 n ASN 763  
+13 n GLU 764  
+13 n ASP 765  
+13 n TYR 766  
+13 n CYS 767  
+13 n ILE 768  
+13 n LYS 769  
+13 n ARG 770  
+13 n GLU 771  
+13 n TYR 772  
+13 n LEU 773  
+13 n ILE 774  
+13 n CYS 775  
+13 n GLU 776  
+13 n ASP 777  
+13 n TYR 778  
+13 n LYS 779  
+13 n LEU 780  
+13 n PHE 781  
+13 n TRP 782  
+13 n VAL 783  
+13 n ALA 784  
+13 n PRO 785  
+13 n ARG 786  
+13 n ASN 787  
+13 n SER 788  
+13 n ALA 789  
+13 n GLU 790  
+13 n LEU 791  
+13 n THR 792  
+13 n VAL 793  
+13 n ILE 794  
+13 n LYS 795  
+13 n VAL 796  
+13 n SER 797  
+13 n SER 798  
+13 n GLN 799  
+13 n PRO 800  
+13 n VAL 801  
+13 n PRO 802  
+13 n TRP 803  
+13 n ASP 804  
+13 n PHE 805  
+13 n TYR 806  
+13 n ILE 807  
+13 n ASN 808  
+13 n LEU 809  
+13 n LYS 810  
+13 n LEU 811  
+13 n LYS 812  
+13 n GLU 813  
+13 n ARG 814  
+13 n LEU 815  
+13 n ASN 816  
+13 n GLU 817  
+13 n ASP 818  
+13 n PHE 819  
+13 n ASP 820  
+13 n HIS 821  
+13 n PHE 822  
+13 n CYS 823  
+13 n SER 824  
+13 n CYS 825  
+13 n TYR 826  
+13 n GLN 827  
+13 n TYR 828  
+13 n GLN 829  
+13 n ASP 830  
+13 n GLY 831  
+13 n CYS 832  
+13 n ILE 833  
+13 n VAL 834  
+13 n TRP 835  
+13 n HIS 836  
+13 n GLN 837  
+13 n TYR 838  
+13 n ILE 839  
+13 n ASN 840  
+13 n CYS 841  
+13 n PHE 842  
+13 n THR 843  
+13 n LEU 844  
+13 n GLN 845  
+13 n ASP 846  
+13 n LEU 847  
+13 n LEU 848  
+13 n GLN 849  
+13 n HIS 850  
+13 n SER 851  
+13 n GLU 852  
+13 n TYR 853  
+13 n ILE 854  
+13 n THR 855  
+13 n HIS 856  
+13 n GLU 857  
+13 n ILE 858  
+13 n THR 859  
+13 n VAL 860  
+13 n LEU 861  
+13 n ILE 862  
+13 n ILE 863  
+13 n TYR 864  
+13 n ASN 865  
+13 n LEU 866  
+13 n LEU 867  
+13 n THR 868  
+13 n ILE 869  
+13 n VAL 870  
+13 n GLU 871  
+13 n MET 872  
+13 n LEU 873  
+13 n HIS 874  
+13 n LYS 875  
+13 n ALA 876  
+13 n GLU 877  
+13 n ILE 878  
+13 n VAL 879  
+13 n HIS 880  
+13 n GLY 881  
+13 n ASP 882  
+13 n LEU 883  
+13 n SER 884  
+13 n PRO 885  
+13 n ARG 886  
+13 n CYS 887  
+13 n LEU 888  
+13 n ILE 889  
+13 n LEU 890  
+13 n ARG 891  
+13 n ASN 892  
+13 n ARG 893  
+13 n ILE 894  
+13 n HIS 895  
+13 n ASP 896  
+13 n PRO 897  
+13 n TYR 898  
+13 n ASP 899  
+13 n CYS 900  
+13 n ASN 901  
+13 n LYS 902  
+13 n ASN 903  
+13 n ASN 904  
+13 n GLN 905  
+13 n ALA 906  
+13 n LEU 907  
+13 n LYS 908  
+13 n ILE 909  
+13 n VAL 910  
+13 n ASP 911  
+13 n PHE 912  
+13 n SER 913  
+13 n TYR 914  
+13 n SER 915  
+13 n VAL 916  
+13 n ASP 917  
+13 n LEU 918  
+13 n ARG 919  
+13 n VAL 920  
+13 n GLN 921  
+13 n LEU 922  
+13 n ASP 923  
+13 n VAL 924  
+13 n PHE 925  
+13 n THR 926  
+13 n LEU 927  
+13 n SER 928  
+13 n GLY 929  
+13 n PHE 930  
+13 n ARG 931  
+13 n THR 932  
+13 n VAL 933  
+13 n GLN 934  
+13 n ILE 935  
+13 n LEU 936  
+13 n GLU 937  
+13 n GLY 938  
+13 n GLN 939  
+13 n LYS 940  
+13 n ILE 941  
+13 n LEU 942  
+13 n ALA 943  
+13 n ASN 944  
+13 n CYS 945  
+13 n SER 946  
+13 n SER 947  
+13 n PRO 948  
+13 n TYR 949  
+13 n GLN 950  
+13 n VAL 951  
+13 n ASP 952  
+13 n LEU 953  
+13 n PHE 954  
+13 n GLY 955  
+13 n ILE 956  
+13 n ALA 957  
+13 n ASP 958  
+13 n LEU 959  
+13 n ALA 960  
+13 n HIS 961  
+13 n LEU 962  
+13 n LEU 963  
+13 n LEU 964  
+13 n PHE 965  
+13 n LYS 966  
+13 n GLU 967  
+13 n HIS 968  
+13 n LEU 969  
+13 n GLN 970  
+13 n VAL 971  
+13 n PHE 972  
+13 n TRP 973  
+13 n ASP 974  
+13 n GLY 975  
+13 n SER 976  
+13 n PHE 977  
+13 n TRP 978  
+13 n LYS 979  
+13 n LEU 980  
+13 n SER 981  
+13 n GLN 982  
+13 n ASN 983  
+13 n ILE 984  
+13 n SER 985  
+13 n GLU 986  
+13 n LEU 987  
+13 n LYS 988  
+13 n ASP 989  
+13 n GLY 990  
+13 n GLU 991  
+13 n LEU 992  
+13 n TRP 993  
+13 n ASN 994  
+13 n LYS 995  
+13 n PHE 996  
+13 n PHE 997  
+13 n VAL 998  
+13 n ARG 999  
+13 n ILE 1000 
+13 n LEU 1001 
+13 n ASN 1002 
+13 n ALA 1003 
+13 n ASN 1004 
+13 n ASP 1005 
+13 n GLU 1006 
+13 n ALA 1007 
+13 n THR 1008 
+13 n VAL 1009 
+13 n SER 1010 
+13 n VAL 1011 
+13 n LEU 1012 
+13 n GLY 1013 
+13 n GLU 1014 
+13 n LEU 1015 
+13 n ALA 1016 
+13 n ALA 1017 
+13 n GLU 1018 
+13 n MET 1019 
+13 n ASN 1020 
+13 n GLY 1021 
+13 n VAL 1022 
+13 n PHE 1023 
+13 n ASP 1024 
+13 n THR 1025 
+13 n THR 1026 
+13 n PHE 1027 
+13 n GLN 1028 
+13 n SER 1029 
+13 n HIS 1030 
+13 n LEU 1031 
+13 n ASN 1032 
+13 n LYS 1033 
+13 n ALA 1034 
+13 n LEU 1035 
+13 n TRP 1036 
+13 n LYS 1037 
+13 n VAL 1038 
+13 n GLY 1039 
+13 n LYS 1040 
+13 n LEU 1041 
+13 n THR 1042 
+13 n GLU 1043 
+13 n PRO 1044 
+13 n GLY 1045 
+13 n ALA 1046 
+13 n LEU 1047 
+13 n LEU 1048 
+13 n PHE 1049 
+13 n GLN 1050 
+#
+_exptl.method "ELECTRON MICROSCOPY"
+#
+_pdbx_audit_revision_history.revision_date 2016-09-07
+#
+_pdbx_database_status.recvd_initial_deposition_date 2016-09-07
+#
+loop_
+_pdbx_poly_seq_scheme.asym_id
+_pdbx_poly_seq_scheme.auth_seq_num
+_pdbx_poly_seq_scheme.entity_id
+_pdbx_poly_seq_scheme.hetero
+_pdbx_poly_seq_scheme.mon_id
+_pdbx_poly_seq_scheme.pdb_ins_code
+_pdbx_poly_seq_scheme.pdb_seq_num
+_pdbx_poly_seq_scheme.pdb_strand_id
+_pdbx_poly_seq_scheme.seq_id
+P ?   13 n MET . 1    Q 1    
+P ?   13 n ALA . 2    Q 2    
+P ?   13 n ALA . 3    Q 3    
+P ?   13 n VAL . 4    Q 4    
+P ?   13 n LYS . 5    Q 5    
+P ?   13 n LYS . 6    Q 6    
+P ?   13 n GLU . 7    Q 7    
+P ?   13 n GLY . 8    Q 8    
+P ?   13 n GLY . 9    Q 9    
+P ?   13 n ALA . 10   Q 10   
+P ?   13 n LEU . 11   Q 11   
+P ?   13 n SER . 12   Q 12   
+P ?   13 n GLU . 13   Q 13   
+P ?   13 n ALA . 14   Q 14   
+P ?   13 n MET . 15   Q 15   
+P ?   13 n SER . 16   Q 16   
+P ?   13 n LEU . 17   Q 17   
+P 18  13 n GLU . 18   Q 18   
+P 19  13 n GLY . 19   Q 19   
+P 20  13 n ASP . 20   Q 20   
+P 21  13 n GLU . 21   Q 21   
+P 22  13 n TRP . 22   Q 22   
+P 23  13 n GLU . 23   Q 23   
+P 24  13 n LEU . 24   Q 24   
+P 25  13 n SER . 25   Q 25   
+P 26  13 n LYS . 26   Q 26   
+P 27  13 n GLU . 27   Q 27   
+P 28  13 n ASN . 28   Q 28   
+P 29  13 n VAL . 29   Q 29   
+P 30  13 n GLN . 30   Q 30   
+P 31  13 n PRO . 31   Q 31   
+P 32  13 n LEU . 32   Q 32   
+P 33  13 n ARG . 33   Q 33   
+P 34  13 n GLN . 34   Q 34   
+P 35  13 n GLY . 35   Q 35   
+P 36  13 n ARG . 36   Q 36   
+P 37  13 n ILE . 37   Q 37   
+P 38  13 n MET . 38   Q 38   
+P 39  13 n SER . 39   Q 39   
+P 40  13 n THR . 40   Q 40   
+P 41  13 n LEU . 41   Q 41   
+P 42  13 n GLN . 42   Q 42   
+P 43  13 n GLY . 43   Q 43   
+P 44  13 n ALA . 44   Q 44   
+P 45  13 n LEU . 45   Q 45   
+P 46  13 n ALA . 46   Q 46   
+P 47  13 n GLN . 47   Q 47   
+P 48  13 n GLU . 48   Q 48   
+P 49  13 n SER . 49   Q 49   
+P 50  13 n ALA . 50   Q 50   
+P 51  13 n CYS . 51   Q 51   
+P 52  13 n ASN . 52   Q 52   
+P 53  13 n ASN . 53   Q 53   
+P 54  13 n THR . 54   Q 54   
+P 55  13 n LEU . 55   Q 55   
+P 56  13 n GLN . 56   Q 56   
+P 57  13 n GLN . 57   Q 57   
+P 58  13 n GLN . 58   Q 58   
+P 59  13 n LYS . 59   Q 59   
+P 60  13 n ARG . 60   Q 60   
+P 61  13 n ALA . 61   Q 61   
+P 62  13 n PHE . 62   Q 62   
+P 63  13 n GLU . 63   Q 63   
+P 64  13 n TYR . 64   Q 64   
+P 65  13 n GLU . 65   Q 65   
+P 66  13 n ILE . 66   Q 66   
+P 67  13 n ARG . 67   Q 67   
+P 68  13 n PHE . 68   Q 68   
+P 69  13 n TYR . 69   Q 69   
+P 70  13 n THR . 70   Q 70   
+P 71  13 n GLY . 71   Q 71   
+P 72  13 n ASN . 72   Q 72   
+P 73  13 n ASP . 73   Q 73   
+P 74  13 n PRO . 74   Q 74   
+P 75  13 n LEU . 75   Q 75   
+P 76  13 n ASP . 76   Q 76   
+P 77  13 n VAL . 77   Q 77   
+P 78  13 n TRP . 78   Q 78   
+P 79  13 n ASP . 79   Q 79   
+P 80  13 n ARG . 80   Q 80   
+P 81  13 n TYR . 81   Q 81   
+P 82  13 n ILE . 82   Q 82   
+P 83  13 n SER . 83   Q 83   
+P 84  13 n TRP . 84   Q 84   
+P 85  13 n THR . 85   Q 85   
+P 86  13 n GLU . 86   Q 86   
+P 87  13 n GLN . 87   Q 87   
+P 88  13 n ASN . 88   Q 88   
+P 89  13 n TYR . 89   Q 89   
+P 90  13 n PRO . 90   Q 90   
+P 91  13 n GLN . 91   Q 91   
+P 92  13 n GLY . 92   Q 92   
+P 93  13 n GLY . 93   Q 93   
+P 94  13 n LYS . 94   Q 94   
+P 95  13 n GLU . 95   Q 95   
+P 96  13 n SER . 96   Q 96   
+P 97  13 n ASN . 97   Q 97   
+P 98  13 n MET . 98   Q 98   
+P 99  13 n SER . 99   Q 99   
+P 100 13 n THR . 100  Q 100  
+P 101 13 n LEU . 101  Q 101  
+P 102 13 n LEU . 102  Q 102  
+P 103 13 n GLU . 103  Q 103  
+P 104 13 n ARG . 104  Q 104  
+P 105 13 n ALA . 105  Q 105  
+P 106 13 n VAL . 106  Q 106  
+P 107 13 n GLU . 107  Q 107  
+P 108 13 n ALA . 108  Q 108  
+P 109 13 n LEU . 109  Q 109  
+P 110 13 n GLN . 110  Q 110  
+P 111 13 n GLY . 111  Q 111  
+P 112 13 n GLU . 112  Q 112  
+P 113 13 n LYS . 113  Q 113  
+P 114 13 n ARG . 114  Q 114  
+P 115 13 n TYR . 115  Q 115  
+P 116 13 n TYR . 116  Q 116  
+P 117 13 n SER . 117  Q 117  
+P 118 13 n ASP . 118  Q 118  
+P 119 13 n PRO . 119  Q 119  
+P 120 13 n ARG . 120  Q 120  
+P 121 13 n PHE . 121  Q 121  
+P 122 13 n LEU . 122  Q 122  
+P 123 13 n ASN . 123  Q 123  
+P 124 13 n LEU . 124  Q 124  
+P 125 13 n TRP . 125  Q 125  
+P 126 13 n LEU . 126  Q 126  
+P 127 13 n LYS . 127  Q 127  
+P 128 13 n LEU . 128  Q 128  
+P 129 13 n GLY . 129  Q 129  
+P 130 13 n ARG . 130  Q 130  
+P 131 13 n LEU . 131  Q 131  
+P 132 13 n CYS . 132  Q 132  
+P 133 13 n ASN . 133  Q 133  
+P 134 13 n GLU . 134  Q 134  
+P 135 13 n PRO . 135  Q 135  
+P 136 13 n LEU . 136  Q 136  
+P 137 13 n ASP . 137  Q 137  
+P 138 13 n MET . 138  Q 138  
+P 139 13 n TYR . 139  Q 139  
+P 140 13 n SER . 140  Q 140  
+P 141 13 n TYR . 141  Q 141  
+P 142 13 n LEU . 142  Q 142  
+P 143 13 n HIS . 143  Q 143  
+P 144 13 n ASN . 144  Q 144  
+P 145 13 n GLN . 145  Q 145  
+P 146 13 n GLY . 146  Q 146  
+P 147 13 n ILE . 147  Q 147  
+P 148 13 n GLY . 148  Q 148  
+P 149 13 n VAL . 149  Q 149  
+P 150 13 n SER . 150  Q 150  
+P 151 13 n LEU . 151  Q 151  
+P 152 13 n ALA . 152  Q 152  
+P 153 13 n GLN . 153  Q 153  
+P 154 13 n PHE . 154  Q 154  
+P 155 13 n TYR . 155  Q 155  
+P 156 13 n ILE . 156  Q 156  
+P 157 13 n SER . 157  Q 157  
+P 158 13 n TRP . 158  Q 158  
+P 159 13 n ALA . 159  Q 159  
+P 160 13 n GLU . 160  Q 160  
+P 161 13 n GLU . 161  Q 161  
+P 162 13 n TYR . 162  Q 162  
+P 163 13 n GLU . 163  Q 163  
+P 164 13 n ALA . 164  Q 164  
+P 165 13 n ARG . 165  Q 165  
+P 166 13 n GLU . 166  Q 166  
+P 167 13 n ASN . 167  Q 167  
+P 168 13 n PHE . 168  Q 168  
+P 169 13 n ARG . 169  Q 169  
+P 170 13 n LYS . 170  Q 170  
+P 171 13 n ALA . 171  Q 171  
+P 172 13 n ASP . 172  Q 172  
+P 173 13 n ALA . 173  Q 173  
+P 174 13 n ILE . 174  Q 174  
+P 175 13 n PHE . 175  Q 175  
+P 176 13 n GLN . 176  Q 176  
+P 177 13 n GLU . 177  Q 177  
+P 178 13 n GLY . 178  Q 178  
+P 179 13 n ILE . 179  Q 179  
+P 180 13 n GLN . 180  Q 180  
+P 181 13 n GLN . 181  Q 181  
+P 182 13 n LYS . 182  Q 182  
+P 183 13 n ALA . 183  Q 183  
+P 184 13 n GLU . 184  Q 184  
+P 185 13 n PRO . 185  Q 185  
+P 186 13 n LEU . 186  Q 186  
+P 187 13 n GLU . 187  Q 187  
+P 188 13 n ARG . 188  Q 188  
+P 189 13 n LEU . 189  Q 189  
+P 190 13 n GLN . 190  Q 190  
+P 191 13 n SER . 191  Q 191  
+P 192 13 n GLN . 192  Q 192  
+P 193 13 n HIS . 193  Q 193  
+P 194 13 n ARG . 194  Q 194  
+P 195 13 n GLN . 195  Q 195  
+P 196 13 n PHE . 196  Q 196  
+P 197 13 n GLN . 197  Q 197  
+P 198 13 n ALA . 198  Q 198  
+P 199 13 n ARG . 199  Q 199  
+P 200 13 n VAL . 200  Q 200  
+P 201 13 n SER . 201  Q 201  
+P 202 13 n ARG . 202  Q 202  
+P 203 13 n GLN . 203  Q 203  
+P 204 13 n THR . 204  Q 204  
+P 205 13 n LEU . 205  Q 205  
+P ?   13 n LEU . 206  Q 206  
+P ?   13 n ALA . 207  Q 207  
+P ?   13 n LEU . 208  Q 208  
+P ?   13 n GLU . 209  Q 209  
+P ?   13 n LYS . 210  Q 210  
+P ?   13 n GLU . 211  Q 211  
+P ?   13 n GLU . 212  Q 212  
+P ?   13 n GLU . 213  Q 213  
+P ?   13 n GLU . 214  Q 214  
+P ?   13 n GLU . 215  Q 215  
+P ?   13 n VAL . 216  Q 216  
+P ?   13 n PHE . 217  Q 217  
+P ?   13 n GLU . 218  Q 218  
+P ?   13 n SER . 219  Q 219  
+P ?   13 n SER . 220  Q 220  
+P ?   13 n VAL . 221  Q 221  
+P ?   13 n PRO . 222  Q 222  
+P ?   13 n GLN . 223  Q 223  
+P 224 13 n ARG . 224  Q 224  
+P 225 13 n SER . 225  Q 225  
+P 226 13 n THR . 226  Q 226  
+P 227 13 n LEU . 227  Q 227  
+P 228 13 n ALA . 228  Q 228  
+P 229 13 n GLU . 229  Q 229  
+P 230 13 n LEU . 230  Q 230  
+P ?   13 n LYS . 231  Q 231  
+P ?   13 n SER . 232  Q 232  
+P ?   13 n LYS . 233  Q 233  
+P ?   13 n GLY . 234  Q 234  
+P ?   13 n LYS . 235  Q 235  
+P ?   13 n LYS . 236  Q 236  
+P ?   13 n THR . 237  Q 237  
+P ?   13 n ALA . 238  Q 238  
+P ?   13 n ARG . 239  Q 239  
+P ?   13 n ALA . 240  Q 240  
+P ?   13 n PRO . 241  Q 241  
+P ?   13 n ILE . 242  Q 242  
+P ?   13 n ILE . 243  Q 243  
+P ?   13 n ARG . 244  Q 244  
+P ?   13 n VAL . 245  Q 245  
+P ?   13 n GLY . 246  Q 246  
+P ?   13 n GLY . 247  Q 247  
+P ?   13 n ALA . 248  Q 248  
+P ?   13 n LEU . 249  Q 249  
+P ?   13 n LYS . 250  Q 250  
+P ?   13 n ALA . 251  Q 251  
+P ?   13 n PRO . 252  Q 252  
+P ?   13 n SER . 253  Q 253  
+P ?   13 n GLN . 254  Q 254  
+P ?   13 n ASN . 255  Q 255  
+P ?   13 n ARG . 256  Q 256  
+P ?   13 n GLY . 257  Q 257  
+P ?   13 n LEU . 258  Q 258  
+P ?   13 n GLN . 259  Q 259  
+P ?   13 n ASN . 260  Q 260  
+P ?   13 n PRO . 261  Q 261  
+P ?   13 n PHE . 262  Q 262  
+P ?   13 n PRO . 263  Q 263  
+P ?   13 n GLN . 264  Q 264  
+P ?   13 n GLN . 265  Q 265  
+P ?   13 n MET . 266  Q 266  
+P ?   13 n GLN . 267  Q 267  
+P ?   13 n ASN . 268  Q 268  
+P ?   13 n ASN . 269  Q 269  
+P ?   13 n SER . 270  Q 270  
+P ?   13 n ARG . 271  Q 271  
+P 272 13 n ILE . 272  Q 272  
+P 273 13 n THR . 273  Q 273  
+P 274 13 n VAL . 274  Q 274  
+P 275 13 n PHE . 275  Q 275  
+P 276 13 n ASP . 276  Q 276  
+P 277 13 n GLU . 277  Q 277  
+P ?   13 n ASN . 278  Q 278  
+P ?   13 n ALA . 279  Q 279  
+P ?   13 n ASP . 280  Q 280  
+P ?   13 n GLU . 281  Q 281  
+P ?   13 n ALA . 282  Q 282  
+P ?   13 n SER . 283  Q 283  
+P ?   13 n THR . 284  Q 284  
+P ?   13 n ALA . 285  Q 285  
+P ?   13 n GLU . 286  Q 286  
+P ?   13 n LEU . 287  Q 287  
+P ?   13 n SER . 288  Q 288  
+P ?   13 n LYS . 289  Q 289  
+P ?   13 n PRO . 290  Q 290  
+P 291 13 n THR . 291  Q 291  
+P 292 13 n VAL . 292  Q 292  
+P 293 13 n GLN . 293  Q 293  
+P 294 13 n PRO . 294  Q 294  
+P 295 13 n TRP . 295  Q 295  
+P 296 13 n ILE . 296  Q 296  
+P 297 13 n ALA . 297  Q 297  
+P 298 13 n PRO . 298  Q 298  
+P 299 13 n PRO . 299  Q 299  
+P 300 13 n MET . 300  Q 300  
+P 301 13 n PRO . 301  Q 301  
+P 302 13 n ARG . 302  Q 302  
+P 303 13 n ALA . 303  Q 303  
+P 304 13 n LYS . 304  Q 304  
+P 305 13 n GLU . 305  Q 305  
+P 306 13 n ASN . 306  Q 306  
+P 307 13 n GLU . 307  Q 307  
+P 308 13 n LEU . 308  Q 308  
+P ?   13 n GLN . 309  Q 309  
+P ?   13 n ALA . 310  Q 310  
+P ?   13 n GLY . 311  Q 311  
+P ?   13 n PRO . 312  Q 312  
+P ?   13 n TRP . 313  Q 313  
+P ?   13 n ASN . 314  Q 314  
+P ?   13 n THR . 315  Q 315  
+P ?   13 n GLY . 316  Q 316  
+P ?   13 n ARG . 317  Q 317  
+P ?   13 n SER . 318  Q 318  
+P ?   13 n LEU . 319  Q 319  
+P ?   13 n GLU . 320  Q 320  
+P ?   13 n HIS . 321  Q 321  
+P ?   13 n ARG . 322  Q 322  
+P ?   13 n PRO . 323  Q 323  
+P ?   13 n ARG . 324  Q 324  
+P ?   13 n GLY . 325  Q 325  
+P ?   13 n ASN . 326  Q 326  
+P ?   13 n THR . 327  Q 327  
+P ?   13 n ALA . 328  Q 328  
+P ?   13 n SER . 329  Q 329  
+P ?   13 n LEU . 330  Q 330  
+P ?   13 n ILE . 331  Q 331  
+P ?   13 n ALA . 332  Q 332  
+P ?   13 n VAL . 333  Q 333  
+P ?   13 n PRO . 334  Q 334  
+P ?   13 n ALA . 335  Q 335  
+P ?   13 n VAL . 336  Q 336  
+P ?   13 n LEU . 337  Q 337  
+P ?   13 n PRO . 338  Q 338  
+P ?   13 n SER . 339  Q 339  
+P ?   13 n PHE . 340  Q 340  
+P ?   13 n THR . 341  Q 341  
+P ?   13 n PRO . 342  Q 342  
+P ?   13 n TYR . 343  Q 343  
+P ?   13 n VAL . 344  Q 344  
+P ?   13 n GLU . 345  Q 345  
+P ?   13 n GLU . 346  Q 346  
+P ?   13 n THR . 347  Q 347  
+P ?   13 n ALA . 348  Q 348  
+P ?   13 n ARG . 349  Q 349  
+P ?   13 n GLN . 350  Q 350  
+P ?   13 n PRO . 351  Q 351  
+P ?   13 n VAL . 352  Q 352  
+P ?   13 n MET . 353  Q 353  
+P ?   13 n THR . 354  Q 354  
+P ?   13 n PRO . 355  Q 355  
+P ?   13 n CYS . 356  Q 356  
+P ?   13 n LYS . 357  Q 357  
+P ?   13 n ILE . 358  Q 358  
+P ?   13 n GLU . 359  Q 359  
+P ?   13 n PRO . 360  Q 360  
+P ?   13 n SER . 361  Q 361  
+P ?   13 n ILE . 362  Q 362  
+P ?   13 n ASN . 363  Q 363  
+P ?   13 n HIS . 364  Q 364  
+P ?   13 n ILE . 365  Q 365  
+P ?   13 n LEU . 366  Q 366  
+P ?   13 n GLU . 367  Q 367  
+P ?   13 n THR . 368  Q 368  
+P ?   13 n ARG . 369  Q 369  
+P ?   13 n LYS . 370  Q 370  
+P ?   13 n PRO . 371  Q 371  
+P ?   13 n GLY . 372  Q 372  
+P ?   13 n LYS . 373  Q 373  
+P ?   13 n GLU . 374  Q 374  
+P ?   13 n GLU . 375  Q 375  
+P ?   13 n GLY . 376  Q 376  
+P ?   13 n ASP . 377  Q 377  
+P ?   13 n PRO . 378  Q 378  
+P ?   13 n LEU . 379  Q 379  
+P ?   13 n GLN . 380  Q 380  
+P ?   13 n ARG . 381  Q 381  
+P ?   13 n VAL . 382  Q 382  
+P ?   13 n GLN . 383  Q 383  
+P ?   13 n SER . 384  Q 384  
+P ?   13 n HIS . 385  Q 385  
+P ?   13 n GLN . 386  Q 386  
+P ?   13 n GLN . 387  Q 387  
+P ?   13 n ALA . 388  Q 388  
+P ?   13 n SER . 389  Q 389  
+P ?   13 n GLU . 390  Q 390  
+P ?   13 n GLU . 391  Q 391  
+P ?   13 n LYS . 392  Q 392  
+P ?   13 n LYS . 393  Q 393  
+P ?   13 n GLU . 394  Q 394  
+P ?   13 n LYS . 395  Q 395  
+P ?   13 n MET . 396  Q 396  
+P ?   13 n MET . 397  Q 397  
+P ?   13 n TYR . 398  Q 398  
+P ?   13 n CYS . 399  Q 399  
+P ?   13 n LYS . 400  Q 400  
+P ?   13 n GLU . 401  Q 401  
+P ?   13 n LYS . 402  Q 402  
+P ?   13 n ILE . 403  Q 403  
+P ?   13 n TYR . 404  Q 404  
+P ?   13 n ALA . 405  Q 405  
+P ?   13 n GLY . 406  Q 406  
+P ?   13 n VAL . 407  Q 407  
+P ?   13 n GLY . 408  Q 408  
+P ?   13 n GLU . 409  Q 409  
+P ?   13 n PHE . 410  Q 410  
+P ?   13 n SER . 411  Q 411  
+P ?   13 n PHE . 412  Q 412  
+P ?   13 n GLU . 413  Q 413  
+P ?   13 n GLU . 414  Q 414  
+P ?   13 n ILE . 415  Q 415  
+P ?   13 n ARG . 416  Q 416  
+P ?   13 n ALA . 417  Q 417  
+P ?   13 n GLU . 418  Q 418  
+P ?   13 n VAL . 419  Q 419  
+P ?   13 n PHE . 420  Q 420  
+P ?   13 n ARG . 421  Q 421  
+P ?   13 n LYS . 422  Q 422  
+P ?   13 n LYS . 423  Q 423  
+P ?   13 n LEU . 424  Q 424  
+P ?   13 n LYS . 425  Q 425  
+P ?   13 n GLU . 426  Q 426  
+P ?   13 n GLN . 427  Q 427  
+P ?   13 n ARG . 428  Q 428  
+P ?   13 n GLU . 429  Q 429  
+P ?   13 n ALA . 430  Q 430  
+P ?   13 n GLU . 431  Q 431  
+P ?   13 n LEU . 432  Q 432  
+P ?   13 n LEU . 433  Q 433  
+P ?   13 n THR . 434  Q 434  
+P ?   13 n GLU . 435  Q 435  
+P ?   13 n ALA . 436  Q 436  
+P ?   13 n GLU . 437  Q 437  
+P ?   13 n LYS . 438  Q 438  
+P ?   13 n ARG . 439  Q 439  
+P ?   13 n ALA . 440  Q 440  
+P ?   13 n GLU . 441  Q 441  
+P ?   13 n MET . 442  Q 442  
+P ?   13 n GLN . 443  Q 443  
+P ?   13 n LYS . 444  Q 444  
+P ?   13 n GLN . 445  Q 445  
+P ?   13 n ILE . 446  Q 446  
+P ?   13 n GLU . 447  Q 447  
+P ?   13 n GLU . 448  Q 448  
+P ?   13 n MET . 449  Q 449  
+P ?   13 n GLU . 450  Q 450  
+P ?   13 n LYS . 451  Q 451  
+P ?   13 n LYS . 452  Q 452  
+P ?   13 n LEU . 453  Q 453  
+P ?   13 n LYS . 454  Q 454  
+P ?   13 n GLU . 455  Q 455  
+P ?   13 n ILE . 456  Q 456  
+P ?   13 n GLN . 457  Q 457  
+P ?   13 n THR . 458  Q 458  
+P ?   13 n THR . 459  Q 459  
+P ?   13 n GLN . 460  Q 460  
+P ?   13 n GLN . 461  Q 461  
+P ?   13 n GLU . 462  Q 462  
+P ?   13 n ARG . 463  Q 463  
+P ?   13 n THR . 464  Q 464  
+P ?   13 n GLY . 465  Q 465  
+P ?   13 n ASP . 466  Q 466  
+P ?   13 n GLN . 467  Q 467  
+P ?   13 n GLN . 468  Q 468  
+P ?   13 n GLU . 469  Q 469  
+P ?   13 n GLU . 470  Q 470  
+P ?   13 n THR . 471  Q 471  
+P ?   13 n MET . 472  Q 472  
+P ?   13 n PRO . 473  Q 473  
+P ?   13 n THR . 474  Q 474  
+P ?   13 n LYS . 475  Q 475  
+P ?   13 n GLU . 476  Q 476  
+P ?   13 n THR . 477  Q 477  
+P ?   13 n THR . 478  Q 478  
+P ?   13 n LYS . 479  Q 479  
+P ?   13 n LEU . 480  Q 480  
+P ?   13 n GLN . 481  Q 481  
+P ?   13 n ILE . 482  Q 482  
+P ?   13 n ALA . 483  Q 483  
+P ?   13 n SER . 484  Q 484  
+P ?   13 n GLU . 485  Q 485  
+P ?   13 n SER . 486  Q 486  
+P ?   13 n GLN . 487  Q 487  
+P ?   13 n LYS . 488  Q 488  
+P ?   13 n ILE . 489  Q 489  
+P ?   13 n PRO . 490  Q 490  
+P ?   13 n GLY . 491  Q 491  
+P ?   13 n MET . 492  Q 492  
+P ?   13 n THR . 493  Q 493  
+P ?   13 n LEU . 494  Q 494  
+P ?   13 n SER . 495  Q 495  
+P ?   13 n SER . 496  Q 496  
+P ?   13 n SER . 497  Q 497  
+P ?   13 n VAL . 498  Q 498  
+P ?   13 n CYS . 499  Q 499  
+P ?   13 n GLN . 500  Q 500  
+P ?   13 n VAL . 501  Q 501  
+P ?   13 n ASN . 502  Q 502  
+P ?   13 n CYS . 503  Q 503  
+P ?   13 n CYS . 504  Q 504  
+P ?   13 n ALA . 505  Q 505  
+P ?   13 n ARG . 506  Q 506  
+P ?   13 n GLU . 507  Q 507  
+P ?   13 n THR . 508  Q 508  
+P ?   13 n SER . 509  Q 509  
+P ?   13 n LEU . 510  Q 510  
+P ?   13 n ALA . 511  Q 511  
+P ?   13 n GLU . 512  Q 512  
+P ?   13 n ASN . 513  Q 513  
+P ?   13 n ILE . 514  Q 514  
+P ?   13 n TRP . 515  Q 515  
+P ?   13 n GLN . 516  Q 516  
+P ?   13 n GLU . 517  Q 517  
+P ?   13 n GLN . 518  Q 518  
+P ?   13 n PRO . 519  Q 519  
+P ?   13 n HIS . 520  Q 520  
+P ?   13 n SER . 521  Q 521  
+P ?   13 n LYS . 522  Q 522  
+P ?   13 n GLY . 523  Q 523  
+P ?   13 n PRO . 524  Q 524  
+P ?   13 n SER . 525  Q 525  
+P ?   13 n VAL . 526  Q 526  
+P ?   13 n PRO . 527  Q 527  
+P ?   13 n PHE . 528  Q 528  
+P ?   13 n SER . 529  Q 529  
+P ?   13 n ILE . 530  Q 530  
+P ?   13 n PHE . 531  Q 531  
+P ?   13 n ASP . 532  Q 532  
+P ?   13 n GLU . 533  Q 533  
+P ?   13 n PHE . 534  Q 534  
+P ?   13 n LEU . 535  Q 535  
+P ?   13 n LEU . 536  Q 536  
+P ?   13 n SER . 537  Q 537  
+P ?   13 n GLU . 538  Q 538  
+P ?   13 n LYS . 539  Q 539  
+P ?   13 n LYS . 540  Q 540  
+P ?   13 n ASN . 541  Q 541  
+P ?   13 n LYS . 542  Q 542  
+P ?   13 n GLU . 543  Q 543  
+P ?   13 n PRO . 544  Q 544  
+P ?   13 n PRO . 545  Q 545  
+P ?   13 n ALA . 546  Q 546  
+P ?   13 n ASP . 547  Q 547  
+P ?   13 n PRO . 548  Q 548  
+P ?   13 n PRO . 549  Q 549  
+P ?   13 n ARG . 550  Q 550  
+P ?   13 n VAL . 551  Q 551  
+P ?   13 n LEU . 552  Q 552  
+P ?   13 n ALA . 553  Q 553  
+P ?   13 n GLN . 554  Q 554  
+P ?   13 n ARG . 555  Q 555  
+P ?   13 n ARG . 556  Q 556  
+P ?   13 n PRO . 557  Q 557  
+P ?   13 n LEU . 558  Q 558  
+P ?   13 n ALA . 559  Q 559  
+P ?   13 n VAL . 560  Q 560  
+P ?   13 n LEU . 561  Q 561  
+P ?   13 n LYS . 562  Q 562  
+P ?   13 n THR . 563  Q 563  
+P ?   13 n SER . 564  Q 564  
+P ?   13 n GLU . 565  Q 565  
+P ?   13 n SER . 566  Q 566  
+P ?   13 n ILE . 567  Q 567  
+P ?   13 n THR . 568  Q 568  
+P ?   13 n SER . 569  Q 569  
+P ?   13 n ASN . 570  Q 570  
+P ?   13 n GLU . 571  Q 571  
+P ?   13 n ASP . 572  Q 572  
+P ?   13 n VAL . 573  Q 573  
+P ?   13 n SER . 574  Q 574  
+P ?   13 n PRO . 575  Q 575  
+P ?   13 n ASP . 576  Q 576  
+P ?   13 n VAL . 577  Q 577  
+P ?   13 n CYS . 578  Q 578  
+P ?   13 n ASP . 579  Q 579  
+P ?   13 n GLU . 580  Q 580  
+P ?   13 n PHE . 581  Q 581  
+P ?   13 n THR . 582  Q 582  
+P ?   13 n GLY . 583  Q 583  
+P ?   13 n ILE . 584  Q 584  
+P ?   13 n GLU . 585  Q 585  
+P ?   13 n PRO . 586  Q 586  
+P ?   13 n LEU . 587  Q 587  
+P ?   13 n SER . 588  Q 588  
+P ?   13 n GLU . 589  Q 589  
+P ?   13 n ASP . 590  Q 590  
+P ?   13 n ALA . 591  Q 591  
+P ?   13 n ILE . 592  Q 592  
+P ?   13 n ILE . 593  Q 593  
+P ?   13 n THR . 594  Q 594  
+P ?   13 n GLY . 595  Q 595  
+P ?   13 n PHE . 596  Q 596  
+P ?   13 n ARG . 597  Q 597  
+P ?   13 n ASN . 598  Q 598  
+P ?   13 n VAL . 599  Q 599  
+P ?   13 n GLU . 600  Q 600  
+P ?   13 n ILE . 601  Q 601  
+P ?   13 n CYS . 602  Q 602  
+P ?   13 n PRO . 603  Q 603  
+P ?   13 n ASN . 604  Q 604  
+P ?   13 n PRO . 605  Q 605  
+P ?   13 n GLU . 606  Q 606  
+P ?   13 n ASP . 607  Q 607  
+P ?   13 n THR . 608  Q 608  
+P ?   13 n CYS . 609  Q 609  
+P ?   13 n ASP . 610  Q 610  
+P ?   13 n PHE . 611  Q 611  
+P ?   13 n ALA . 612  Q 612  
+P ?   13 n ARG . 613  Q 613  
+P ?   13 n ALA . 614  Q 614  
+P ?   13 n ALA . 615  Q 615  
+P ?   13 n ARG . 616  Q 616  
+P ?   13 n PHE . 617  Q 617  
+P ?   13 n VAL . 618  Q 618  
+P ?   13 n SER . 619  Q 619  
+P ?   13 n THR . 620  Q 620  
+P ?   13 n PRO . 621  Q 621  
+P ?   13 n PHE . 622  Q 622  
+P ?   13 n HIS . 623  Q 623  
+P ?   13 n GLU . 624  Q 624  
+P ?   13 n ILE . 625  Q 625  
+P ?   13 n MET . 626  Q 626  
+P ?   13 n SER . 627  Q 627  
+P ?   13 n LEU . 628  Q 628  
+P ?   13 n LYS . 629  Q 629  
+P ?   13 n ASP . 630  Q 630  
+P ?   13 n LEU . 631  Q 631  
+P ?   13 n PRO . 632  Q 632  
+P ?   13 n SER . 633  Q 633  
+P ?   13 n ASP . 634  Q 634  
+P ?   13 n PRO . 635  Q 635  
+P ?   13 n GLU . 636  Q 636  
+P ?   13 n ARG . 637  Q 637  
+P ?   13 n LEU . 638  Q 638  
+P ?   13 n LEU . 639  Q 639  
+P ?   13 n PRO . 640  Q 640  
+P ?   13 n GLU . 641  Q 641  
+P ?   13 n GLU . 642  Q 642  
+P ?   13 n ASP . 643  Q 643  
+P ?   13 n LEU . 644  Q 644  
+P ?   13 n ASP . 645  Q 645  
+P ?   13 n VAL . 646  Q 646  
+P ?   13 n LYS . 647  Q 647  
+P ?   13 n THR . 648  Q 648  
+P ?   13 n SER . 649  Q 649  
+P ?   13 n GLU . 650  Q 650  
+P ?   13 n ASP . 651  Q 651  
+P ?   13 n GLN . 652  Q 652  
+P ?   13 n GLN . 653  Q 653  
+P ?   13 n THR . 654  Q 654  
+P ?   13 n ALA . 655  Q 655  
+P ?   13 n CYS . 656  Q 656  
+P ?   13 n GLY . 657  Q 657  
+P ?   13 n THR . 658  Q 658  
+P ?   13 n ILE . 659  Q 659  
+P ?   13 n TYR . 660  Q 660  
+P ?   13 n SER . 661  Q 661  
+P ?   13 n GLN . 662  Q 662  
+P ?   13 n THR . 663  Q 663  
+P ?   13 n LEU . 664  Q 664  
+P ?   13 n GLU . 665  Q 665  
+P ?   13 n ILE . 666  Q 666  
+P ?   13 n LYS . 667  Q 667  
+P ?   13 n LYS . 668  Q 668  
+P ?   13 n LEU . 669  Q 669  
+P ?   13 n GLU . 670  Q 670  
+P ?   13 n PRO . 671  Q 671  
+P ?   13 n ILE . 672  Q 672  
+P ?   13 n ILE . 673  Q 673  
+P ?   13 n GLU . 674  Q 674  
+P ?   13 n ASP . 675  Q 675  
+P ?   13 n SER . 676  Q 676  
+P ?   13 n ARG . 677  Q 677  
+P ?   13 n GLU . 678  Q 678  
+P ?   13 n ALA . 679  Q 679  
+P ?   13 n THR . 680  Q 680  
+P ?   13 n HIS . 681  Q 681  
+P ?   13 n SER . 682  Q 682  
+P ?   13 n SER . 683  Q 683  
+P ?   13 n GLY . 684  Q 684  
+P ?   13 n PHE . 685  Q 685  
+P ?   13 n SER . 686  Q 686  
+P ?   13 n GLY . 687  Q 687  
+P ?   13 n SER . 688  Q 688  
+P ?   13 n SER . 689  Q 689  
+P ?   13 n ALA . 690  Q 690  
+P ?   13 n SER . 691  Q 691  
+P ?   13 n VAL . 692  Q 692  
+P ?   13 n ALA . 693  Q 693  
+P ?   13 n SER . 694  Q 694  
+P ?   13 n THR . 695  Q 695  
+P ?   13 n SER . 696  Q 696  
+P ?   13 n SER . 697  Q 697  
+P ?   13 n ILE . 698  Q 698  
+P ?   13 n LYS . 699  Q 699  
+P ?   13 n CYS . 700  Q 700  
+P ?   13 n LEU . 701  Q 701  
+P ?   13 n GLN . 702  Q 702  
+P ?   13 n ILE . 703  Q 703  
+P ?   13 n PRO . 704  Q 704  
+P ?   13 n GLU . 705  Q 705  
+P ?   13 n LYS . 706  Q 706  
+P ?   13 n LEU . 707  Q 707  
+P ?   13 n GLU . 708  Q 708  
+P ?   13 n LEU . 709  Q 709  
+P ?   13 n THR . 710  Q 710  
+P ?   13 n ASN . 711  Q 711  
+P ?   13 n GLU . 712  Q 712  
+P ?   13 n THR . 713  Q 713  
+P ?   13 n SER . 714  Q 714  
+P ?   13 n GLU . 715  Q 715  
+P ?   13 n ASN . 716  Q 716  
+P ?   13 n PRO . 717  Q 717  
+P ?   13 n THR . 718  Q 718  
+P ?   13 n GLN . 719  Q 719  
+P ?   13 n GLU . 720  Q 720  
+P ?   13 n PRO . 721  Q 721  
+P ?   13 n TRP . 722  Q 722  
+P ?   13 n CYS . 723  Q 723  
+P ?   13 n SER . 724  Q 724  
+P ?   13 n GLN . 725  Q 725  
+P ?   13 n TYR . 726  Q 726  
+P ?   13 n ARG . 727  Q 727  
+P ?   13 n ARG . 728  Q 728  
+P ?   13 n GLN . 729  Q 729  
+P ?   13 n LEU . 730  Q 730  
+P ?   13 n LEU . 731  Q 731  
+P ?   13 n LYS . 732  Q 732  
+P ?   13 n SER . 733  Q 733  
+P ?   13 n LEU . 734  Q 734  
+P ?   13 n PRO . 735  Q 735  
+P ?   13 n GLU . 736  Q 736  
+P ?   13 n LEU . 737  Q 737  
+P ?   13 n SER . 738  Q 738  
+P ?   13 n ALA . 739  Q 739  
+P ?   13 n SER . 740  Q 740  
+P ?   13 n ALA . 741  Q 741  
+P ?   13 n GLU . 742  Q 742  
+P ?   13 n LEU . 743  Q 743  
+P ?   13 n CYS . 744  Q 744  
+P ?   13 n ILE . 745  Q 745  
+P ?   13 n GLU . 746  Q 746  
+P ?   13 n ASP . 747  Q 747  
+P ?   13 n ARG . 748  Q 748  
+P ?   13 n PRO . 749  Q 749  
+P ?   13 n MET . 750  Q 750  
+P ?   13 n PRO . 751  Q 751  
+P ?   13 n LYS . 752  Q 752  
+P ?   13 n LEU . 753  Q 753  
+P ?   13 n GLU . 754  Q 754  
+P ?   13 n ILE . 755  Q 755  
+P ?   13 n GLU . 756  Q 756  
+P ?   13 n LYS . 757  Q 757  
+P ?   13 n GLU . 758  Q 758  
+P ?   13 n ILE . 759  Q 759  
+P ?   13 n GLU . 760  Q 760  
+P ?   13 n LEU . 761  Q 761  
+P ?   13 n GLY . 762  Q 762  
+P ?   13 n ASN . 763  Q 763  
+P ?   13 n GLU . 764  Q 764  
+P ?   13 n ASP . 765  Q 765  
+P ?   13 n TYR . 766  Q 766  
+P ?   13 n CYS . 767  Q 767  
+P ?   13 n ILE . 768  Q 768  
+P ?   13 n LYS . 769  Q 769  
+P ?   13 n ARG . 770  Q 770  
+P ?   13 n GLU . 771  Q 771  
+P ?   13 n TYR . 772  Q 772  
+P ?   13 n LEU . 773  Q 773  
+P ?   13 n ILE . 774  Q 774  
+P ?   13 n CYS . 775  Q 775  
+P ?   13 n GLU . 776  Q 776  
+P ?   13 n ASP . 777  Q 777  
+P ?   13 n TYR . 778  Q 778  
+P ?   13 n LYS . 779  Q 779  
+P ?   13 n LEU . 780  Q 780  
+P ?   13 n PHE . 781  Q 781  
+P ?   13 n TRP . 782  Q 782  
+P ?   13 n VAL . 783  Q 783  
+P ?   13 n ALA . 784  Q 784  
+P ?   13 n PRO . 785  Q 785  
+P ?   13 n ARG . 786  Q 786  
+P ?   13 n ASN . 787  Q 787  
+P ?   13 n SER . 788  Q 788  
+P ?   13 n ALA . 789  Q 789  
+P ?   13 n GLU . 790  Q 790  
+P ?   13 n LEU . 791  Q 791  
+P ?   13 n THR . 792  Q 792  
+P ?   13 n VAL . 793  Q 793  
+P ?   13 n ILE . 794  Q 794  
+P ?   13 n LYS . 795  Q 795  
+P ?   13 n VAL . 796  Q 796  
+P ?   13 n SER . 797  Q 797  
+P ?   13 n SER . 798  Q 798  
+P ?   13 n GLN . 799  Q 799  
+P ?   13 n PRO . 800  Q 800  
+P ?   13 n VAL . 801  Q 801  
+P ?   13 n PRO . 802  Q 802  
+P ?   13 n TRP . 803  Q 803  
+P ?   13 n ASP . 804  Q 804  
+P ?   13 n PHE . 805  Q 805  
+P ?   13 n TYR . 806  Q 806  
+P ?   13 n ILE . 807  Q 807  
+P ?   13 n ASN . 808  Q 808  
+P ?   13 n LEU . 809  Q 809  
+P ?   13 n LYS . 810  Q 810  
+P ?   13 n LEU . 811  Q 811  
+P ?   13 n LYS . 812  Q 812  
+P ?   13 n GLU . 813  Q 813  
+P ?   13 n ARG . 814  Q 814  
+P ?   13 n LEU . 815  Q 815  
+P ?   13 n ASN . 816  Q 816  
+P ?   13 n GLU . 817  Q 817  
+P ?   13 n ASP . 818  Q 818  
+P ?   13 n PHE . 819  Q 819  
+P ?   13 n ASP . 820  Q 820  
+P ?   13 n HIS . 821  Q 821  
+P ?   13 n PHE . 822  Q 822  
+P ?   13 n CYS . 823  Q 823  
+P ?   13 n SER . 824  Q 824  
+P ?   13 n CYS . 825  Q 825  
+P ?   13 n TYR . 826  Q 826  
+P ?   13 n GLN . 827  Q 827  
+P ?   13 n TYR . 828  Q 828  
+P ?   13 n GLN . 829  Q 829  
+P ?   13 n ASP . 830  Q 830  
+P ?   13 n GLY . 831  Q 831  
+P ?   13 n CYS . 832  Q 832  
+P ?   13 n ILE . 833  Q 833  
+P ?   13 n VAL . 834  Q 834  
+P ?   13 n TRP . 835  Q 835  
+P ?   13 n HIS . 836  Q 836  
+P ?   13 n GLN . 837  Q 837  
+P ?   13 n TYR . 838  Q 838  
+P ?   13 n ILE . 839  Q 839  
+P ?   13 n ASN . 840  Q 840  
+P ?   13 n CYS . 841  Q 841  
+P ?   13 n PHE . 842  Q 842  
+P ?   13 n THR . 843  Q 843  
+P ?   13 n LEU . 844  Q 844  
+P ?   13 n GLN . 845  Q 845  
+P ?   13 n ASP . 846  Q 846  
+P ?   13 n LEU . 847  Q 847  
+P ?   13 n LEU . 848  Q 848  
+P ?   13 n GLN . 849  Q 849  
+P ?   13 n HIS . 850  Q 850  
+P ?   13 n SER . 851  Q 851  
+P ?   13 n GLU . 852  Q 852  
+P ?   13 n TYR . 853  Q 853  
+P ?   13 n ILE . 854  Q 854  
+P ?   13 n THR . 855  Q 855  
+P ?   13 n HIS . 856  Q 856  
+P ?   13 n GLU . 857  Q 857  
+P ?   13 n ILE . 858  Q 858  
+P ?   13 n THR . 859  Q 859  
+P ?   13 n VAL . 860  Q 860  
+P ?   13 n LEU . 861  Q 861  
+P ?   13 n ILE . 862  Q 862  
+P ?   13 n ILE . 863  Q 863  
+P ?   13 n TYR . 864  Q 864  
+P ?   13 n ASN . 865  Q 865  
+P ?   13 n LEU . 866  Q 866  
+P ?   13 n LEU . 867  Q 867  
+P ?   13 n THR . 868  Q 868  
+P ?   13 n ILE . 869  Q 869  
+P ?   13 n VAL . 870  Q 870  
+P ?   13 n GLU . 871  Q 871  
+P ?   13 n MET . 872  Q 872  
+P ?   13 n LEU . 873  Q 873  
+P ?   13 n HIS . 874  Q 874  
+P ?   13 n LYS . 875  Q 875  
+P ?   13 n ALA . 876  Q 876  
+P ?   13 n GLU . 877  Q 877  
+P ?   13 n ILE . 878  Q 878  
+P ?   13 n VAL . 879  Q 879  
+P ?   13 n HIS . 880  Q 880  
+P ?   13 n GLY . 881  Q 881  
+P ?   13 n ASP . 882  Q 882  
+P ?   13 n LEU . 883  Q 883  
+P ?   13 n SER . 884  Q 884  
+P ?   13 n PRO . 885  Q 885  
+P ?   13 n ARG . 886  Q 886  
+P ?   13 n CYS . 887  Q 887  
+P ?   13 n LEU . 888  Q 888  
+P ?   13 n ILE . 889  Q 889  
+P ?   13 n LEU . 890  Q 890  
+P ?   13 n ARG . 891  Q 891  
+P ?   13 n ASN . 892  Q 892  
+P ?   13 n ARG . 893  Q 893  
+P ?   13 n ILE . 894  Q 894  
+P ?   13 n HIS . 895  Q 895  
+P ?   13 n ASP . 896  Q 896  
+P ?   13 n PRO . 897  Q 897  
+P ?   13 n TYR . 898  Q 898  
+P ?   13 n ASP . 899  Q 899  
+P ?   13 n CYS . 900  Q 900  
+P ?   13 n ASN . 901  Q 901  
+P ?   13 n LYS . 902  Q 902  
+P ?   13 n ASN . 903  Q 903  
+P ?   13 n ASN . 904  Q 904  
+P ?   13 n GLN . 905  Q 905  
+P ?   13 n ALA . 906  Q 906  
+P ?   13 n LEU . 907  Q 907  
+P ?   13 n LYS . 908  Q 908  
+P ?   13 n ILE . 909  Q 909  
+P ?   13 n VAL . 910  Q 910  
+P ?   13 n ASP . 911  Q 911  
+P ?   13 n PHE . 912  Q 912  
+P ?   13 n SER . 913  Q 913  
+P ?   13 n TYR . 914  Q 914  
+P ?   13 n SER . 915  Q 915  
+P ?   13 n VAL . 916  Q 916  
+P ?   13 n ASP . 917  Q 917  
+P ?   13 n LEU . 918  Q 918  
+P ?   13 n ARG . 919  Q 919  
+P ?   13 n VAL . 920  Q 920  
+P ?   13 n GLN . 921  Q 921  
+P ?   13 n LEU . 922  Q 922  
+P ?   13 n ASP . 923  Q 923  
+P ?   13 n VAL . 924  Q 924  
+P ?   13 n PHE . 925  Q 925  
+P ?   13 n THR . 926  Q 926  
+P ?   13 n LEU . 927  Q 927  
+P ?   13 n SER . 928  Q 928  
+P ?   13 n GLY . 929  Q 929  
+P ?   13 n PHE . 930  Q 930  
+P ?   13 n ARG . 931  Q 931  
+P ?   13 n THR . 932  Q 932  
+P ?   13 n VAL . 933  Q 933  
+P ?   13 n GLN . 934  Q 934  
+P ?   13 n ILE . 935  Q 935  
+P ?   13 n LEU . 936  Q 936  
+P ?   13 n GLU . 937  Q 937  
+P ?   13 n GLY . 938  Q 938  
+P ?   13 n GLN . 939  Q 939  
+P ?   13 n LYS . 940  Q 940  
+P ?   13 n ILE . 941  Q 941  
+P ?   13 n LEU . 942  Q 942  
+P ?   13 n ALA . 943  Q 943  
+P ?   13 n ASN . 944  Q 944  
+P ?   13 n CYS . 945  Q 945  
+P ?   13 n SER . 946  Q 946  
+P ?   13 n SER . 947  Q 947  
+P ?   13 n PRO . 948  Q 948  
+P ?   13 n TYR . 949  Q 949  
+P ?   13 n GLN . 950  Q 950  
+P ?   13 n VAL . 951  Q 951  
+P ?   13 n ASP . 952  Q 952  
+P ?   13 n LEU . 953  Q 953  
+P ?   13 n PHE . 954  Q 954  
+P ?   13 n GLY . 955  Q 955  
+P ?   13 n ILE . 956  Q 956  
+P ?   13 n ALA . 957  Q 957  
+P ?   13 n ASP . 958  Q 958  
+P ?   13 n LEU . 959  Q 959  
+P ?   13 n ALA . 960  Q 960  
+P ?   13 n HIS . 961  Q 961  
+P ?   13 n LEU . 962  Q 962  
+P ?   13 n LEU . 963  Q 963  
+P ?   13 n LEU . 964  Q 964  
+P ?   13 n PHE . 965  Q 965  
+P ?   13 n LYS . 966  Q 966  
+P ?   13 n GLU . 967  Q 967  
+P ?   13 n HIS . 968  Q 968  
+P ?   13 n LEU . 969  Q 969  
+P ?   13 n GLN . 970  Q 970  
+P ?   13 n VAL . 971  Q 971  
+P ?   13 n PHE . 972  Q 972  
+P ?   13 n TRP . 973  Q 973  
+P ?   13 n ASP . 974  Q 974  
+P ?   13 n GLY . 975  Q 975  
+P ?   13 n SER . 976  Q 976  
+P ?   13 n PHE . 977  Q 977  
+P ?   13 n TRP . 978  Q 978  
+P ?   13 n LYS . 979  Q 979  
+P ?   13 n LEU . 980  Q 980  
+P ?   13 n SER . 981  Q 981  
+P ?   13 n GLN . 982  Q 982  
+P ?   13 n ASN . 983  Q 983  
+P ?   13 n ILE . 984  Q 984  
+P ?   13 n SER . 985  Q 985  
+P ?   13 n GLU . 986  Q 986  
+P ?   13 n LEU . 987  Q 987  
+P ?   13 n LYS . 988  Q 988  
+P ?   13 n ASP . 989  Q 989  
+P ?   13 n GLY . 990  Q 990  
+P ?   13 n GLU . 991  Q 991  
+P ?   13 n LEU . 992  Q 992  
+P ?   13 n TRP . 993  Q 993  
+P ?   13 n ASN . 994  Q 994  
+P ?   13 n LYS . 995  Q 995  
+P ?   13 n PHE . 996  Q 996  
+P ?   13 n PHE . 997  Q 997  
+P ?   13 n VAL . 998  Q 998  
+P ?   13 n ARG . 999  Q 999  
+P ?   13 n ILE . 1000 Q 1000 
+P ?   13 n LEU . 1001 Q 1001 
+P ?   13 n ASN . 1002 Q 1002 
+P ?   13 n ALA . 1003 Q 1003 
+P ?   13 n ASN . 1004 Q 1004 
+P ?   13 n ASP . 1005 Q 1005 
+P ?   13 n GLU . 1006 Q 1006 
+P ?   13 n ALA . 1007 Q 1007 
+P ?   13 n THR . 1008 Q 1008 
+P ?   13 n VAL . 1009 Q 1009 
+P ?   13 n SER . 1010 Q 1010 
+P ?   13 n VAL . 1011 Q 1011 
+P ?   13 n LEU . 1012 Q 1012 
+P ?   13 n GLY . 1013 Q 1013 
+P ?   13 n GLU . 1014 Q 1014 
+P ?   13 n LEU . 1015 Q 1015 
+P ?   13 n ALA . 1016 Q 1016 
+P ?   13 n ALA . 1017 Q 1017 
+P ?   13 n GLU . 1018 Q 1018 
+P ?   13 n MET . 1019 Q 1019 
+P ?   13 n ASN . 1020 Q 1020 
+P ?   13 n GLY . 1021 Q 1021 
+P ?   13 n VAL . 1022 Q 1022 
+P ?   13 n PHE . 1023 Q 1023 
+P ?   13 n ASP . 1024 Q 1024 
+P ?   13 n THR . 1025 Q 1025 
+P ?   13 n THR . 1026 Q 1026 
+P ?   13 n PHE . 1027 Q 1027 
+P ?   13 n GLN . 1028 Q 1028 
+P ?   13 n SER . 1029 Q 1029 
+P ?   13 n HIS . 1030 Q 1030 
+P ?   13 n LEU . 1031 Q 1031 
+P ?   13 n ASN . 1032 Q 1032 
+P ?   13 n LYS . 1033 Q 1033 
+P ?   13 n ALA . 1034 Q 1034 
+P ?   13 n LEU . 1035 Q 1035 
+P ?   13 n TRP . 1036 Q 1036 
+P ?   13 n LYS . 1037 Q 1037 
+P ?   13 n VAL . 1038 Q 1038 
+P ?   13 n GLY . 1039 Q 1039 
+P ?   13 n LYS . 1040 Q 1040 
+P ?   13 n LEU . 1041 Q 1041 
+P ?   13 n THR . 1042 Q 1042 
+P ?   13 n GLU . 1043 Q 1043 
+P ?   13 n PRO . 1044 Q 1044 
+P ?   13 n GLY . 1045 Q 1045 
+P ?   13 n ALA . 1046 Q 1046 
+P ?   13 n LEU . 1047 Q 1047 
+P ?   13 n LEU . 1048 Q 1048 
+P ?   13 n PHE . 1049 Q 1049 
+P ?   13 n GLN . 1050 Q 1050 
+#
+_pdbx_struct_assembly.details            author_defined_assembly
+_pdbx_struct_assembly.id                 1
+_pdbx_struct_assembly.method_details     ?
+_pdbx_struct_assembly.oligomeric_count   23
+_pdbx_struct_assembly.oligomeric_details 23-meric
+#
+_pdbx_struct_assembly_gen.assembly_id     1
+_pdbx_struct_assembly_gen.asym_id_list    A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W
+_pdbx_struct_assembly_gen.oper_expression 1
+#
+_pdbx_struct_oper_list.id                 1
+_pdbx_struct_oper_list.matrix[1][1]       1.0000000000
+_pdbx_struct_oper_list.matrix[1][2]       0.0000000000
+_pdbx_struct_oper_list.matrix[1][3]       0.0000000000
+_pdbx_struct_oper_list.matrix[2][1]       0.0000000000
+_pdbx_struct_oper_list.matrix[2][2]       1.0000000000
+_pdbx_struct_oper_list.matrix[2][3]       0.0000000000
+_pdbx_struct_oper_list.matrix[3][1]       0.0000000000
+_pdbx_struct_oper_list.matrix[3][2]       0.0000000000
+_pdbx_struct_oper_list.matrix[3][3]       1.0000000000
+_pdbx_struct_oper_list.name               1_555
+_pdbx_struct_oper_list.symmetry_operation ?
+_pdbx_struct_oper_list.type               "identity operation"
+_pdbx_struct_oper_list.vector[1]          0.0000000000
+_pdbx_struct_oper_list.vector[2]          0.0000000000
+_pdbx_struct_oper_list.vector[3]          0.0000000000
+#
+_refine.ls_d_res_high 4.80
+#
+_software.classification other
+_software.name           "DeepMind Structure Class"
+_software.pdbx_ordinal   1
+_software.version        2.0.0
+#
+_struct_asym.entity_id 13
+_struct_asym.id        P
+#
+loop_
+_atom_site.group_PDB
+_atom_site.id
+_atom_site.type_symbol
+_atom_site.label_atom_id
+_atom_site.label_alt_id
+_atom_site.label_comp_id
+_atom_site.label_asym_id
+_atom_site.label_entity_id
+_atom_site.label_seq_id
+_atom_site.pdbx_PDB_ins_code
+_atom_site.Cartn_x
+_atom_site.Cartn_y
+_atom_site.Cartn_z
+_atom_site.occupancy
+_atom_site.B_iso_or_equiv
+_atom_site.auth_seq_id
+_atom_site.auth_asym_id
+_atom_site.pdbx_PDB_model_num
+ATOM 1   C CA . GLU P 13 18  ? 281.263 207.168 249.720 1.00 0.00   18  Q 1 
+ATOM 2   C CA . GLY P 13 19  ? 277.853 205.625 249.092 1.00 0.00   19  Q 1 
+ATOM 3   C CA . ASP P 13 20  ? 276.679 208.268 251.533 1.00 0.00   20  Q 1 
+ATOM 4   C CA . GLU P 13 21  ? 277.846 211.036 249.200 1.00 0.00   21  Q 1 
+ATOM 5   C CA . TRP P 13 22  ? 275.981 208.999 246.604 1.00 0.00   22  Q 1 
+ATOM 6   C CA . GLU P 13 23  ? 272.628 209.396 248.376 1.00 0.00   23  Q 1 
+ATOM 7   C CA . LEU P 13 24  ? 272.972 213.121 247.687 1.00 0.00   24  Q 1 
+ATOM 8   C CA . SER P 13 25  ? 272.178 213.203 243.947 1.00 0.00   25  Q 1 
+ATOM 9   C CA . LYS P 13 26  ? 270.590 209.759 244.080 1.00 0.00   26  Q 1 
+ATOM 10  C CA . GLU P 13 27  ? 267.358 210.794 242.344 1.00 0.00   27  Q 1 
+ATOM 11  C CA . ASN P 13 28  ? 269.266 211.792 239.199 1.00 0.00   28  Q 1 
+ATOM 12  C CA . VAL P 13 29  ? 270.292 208.203 238.335 1.00 0.00   29  Q 1 
+ATOM 13  C CA . GLN P 13 30  ? 268.721 205.197 236.649 1.00 0.00   30  Q 1 
+ATOM 14  C CA . PRO P 13 31  ? 269.665 201.628 237.552 1.00 0.00   31  Q 1 
+ATOM 15  C CA . LEU P 13 32  ? 270.360 199.085 234.845 1.00 0.00   32  Q 1 
+ATOM 16  C CA . ARG P 13 33  ? 270.311 195.339 234.350 1.00 0.00   33  Q 1 
+ATOM 17  C CA . GLN P 13 34  ? 273.419 194.289 236.278 1.00 0.00   34  Q 1 
+ATOM 18  C CA . GLY P 13 35  ? 273.840 197.922 237.328 1.00 0.00   35  Q 1 
+ATOM 19  C CA . ARG P 13 36  ? 276.293 200.743 236.608 1.00 0.00   36  Q 1 
+ATOM 20  C CA . ILE P 13 37  ? 278.521 199.723 239.553 1.00 0.00   37  Q 1 
+ATOM 21  C CA . MET P 13 38  ? 280.114 201.653 242.437 1.00 0.00   38  Q 1 
+ATOM 22  C CA . SER P 13 39  ? 283.521 202.580 240.992 1.00 0.00   39  Q 1 
+ATOM 23  C CA . THR P 13 40  ? 282.423 203.950 237.620 1.00 0.00   40  Q 1 
+ATOM 24  C CA . LEU P 13 41  ? 279.259 205.132 239.367 1.00 0.00   41  Q 1 
+ATOM 25  C CA . GLN P 13 42  ? 280.938 207.567 241.739 1.00 0.00   42  Q 1 
+ATOM 26  C CA . GLY P 13 43  ? 283.004 208.952 238.875 1.00 0.00   43  Q 1 
+ATOM 27  C CA . ALA P 13 44  ? 279.779 210.213 237.396 1.00 0.00   44  Q 1 
+ATOM 28  C CA . LEU P 13 45  ? 278.479 212.204 240.331 1.00 0.00   45  Q 1 
+ATOM 29  C CA . ALA P 13 46  ? 281.670 212.795 242.303 1.00 0.00   46  Q 1 
+ATOM 30  C CA . GLN P 13 47  ? 283.222 215.645 240.355 1.00 0.00   47  Q 1 
+ATOM 31  C CA . GLU P 13 48  ? 280.603 217.677 238.552 1.00 0.00   48  Q 1 
+ATOM 32  C CA . SER P 13 49  ? 283.134 218.135 235.716 1.00 0.00   49  Q 1 
+ATOM 33  C CA . ALA P 13 50  ? 280.360 219.999 233.847 1.00 0.00   50  Q 1 
+ATOM 34  C CA . CYS P 13 51  ? 280.526 219.418 230.109 1.00 0.00   51  Q 1 
+ATOM 35  C CA . ASN P 13 52  ? 283.893 221.158 229.970 1.00 0.00   52  Q 1 
+ATOM 36  C CA . ASN P 13 53  ? 286.012 218.545 231.734 1.00 0.00   53  Q 1 
+ATOM 37  C CA . THR P 13 54  ? 283.889 215.585 230.640 1.00 36.79  54  Q 1 
+ATOM 38  C CA . LEU P 13 55  ? 283.673 216.376 226.926 1.00 33.83  55  Q 1 
+ATOM 39  C CA . GLN P 13 56  ? 287.360 216.680 226.115 1.00 29.18  56  Q 1 
+ATOM 40  C CA . GLN P 13 57  ? 288.783 214.297 228.733 1.00 26.79  57  Q 1 
+ATOM 41  C CA . GLN P 13 58  ? 286.835 211.223 227.698 1.00 24.07  58  Q 1 
+ATOM 42  C CA . LYS P 13 59  ? 284.342 211.813 224.876 1.00 19.52  59  Q 1 
+ATOM 43  C CA . ARG P 13 60  ? 286.752 213.573 222.526 1.00 16.52  60  Q 1 
+ATOM 44  C CA . ALA P 13 61  ? 289.296 210.917 223.486 1.00 15.51  61  Q 1 
+ATOM 45  C CA . PHE P 13 62  ? 286.932 208.165 222.367 1.00 14.93  62  Q 1 
+ATOM 46  C CA . GLU P 13 63  ? 285.547 210.374 219.602 1.00 14.36  63  Q 1 
+ATOM 47  C CA . TYR P 13 64  ? 288.567 210.721 217.332 1.00 14.65  64  Q 1 
+ATOM 48  C CA . GLU P 13 65  ? 289.581 207.126 218.017 1.00 15.28  65  Q 1 
+ATOM 49  C CA . ILE P 13 66  ? 286.756 206.533 215.557 1.00 15.92  66  Q 1 
+ATOM 50  C CA . ARG P 13 67  ? 288.072 209.350 213.359 1.00 17.09  67  Q 1 
+ATOM 51  C CA . PHE P 13 68  ? 291.424 207.577 213.086 1.00 17.46  68  Q 1 
+ATOM 52  C CA . TYR P 13 69  ? 290.005 204.117 213.618 1.00 19.35  69  Q 1 
+ATOM 53  C CA . THR P 13 70  ? 292.007 201.034 212.654 1.00 22.39  70  Q 1 
+ATOM 54  C CA . GLY P 13 71  ? 291.454 197.661 214.309 1.00 23.29  71  Q 1 
+ATOM 55  C CA . ASN P 13 72  ? 289.352 194.612 213.567 1.00 23.39  72  Q 1 
+ATOM 56  C CA . ASP P 13 73  ? 286.191 195.495 215.441 1.00 20.25  73  Q 1 
+ATOM 57  C CA . PRO P 13 74  ? 284.952 199.090 215.367 1.00 18.07  74  Q 1 
+ATOM 58  C CA . LEU P 13 75  ? 281.900 197.571 217.031 1.00 15.73  75  Q 1 
+ATOM 59  C CA . ASP P 13 76  ? 283.901 197.026 220.209 1.00 15.61  76  Q 1 
+ATOM 60  C CA . VAL P 13 77  ? 285.215 200.561 219.796 1.00 14.87  77  Q 1 
+ATOM 61  C CA . TRP P 13 78  ? 281.547 201.496 219.862 1.00 15.87  78  Q 1 
+ATOM 62  C CA . ASP P 13 79  ? 280.961 199.058 222.723 1.00 17.53  79  Q 1 
+ATOM 63  C CA . ARG P 13 80  ? 283.368 200.680 225.161 1.00 18.80  80  Q 1 
+ATOM 64  C CA . TYR P 13 81  ? 282.443 204.089 223.734 1.00 17.34  81  Q 1 
+ATOM 65  C CA . ILE P 13 82  ? 278.701 203.611 224.086 1.00 19.37  82  Q 1 
+ATOM 66  C CA . SER P 13 83  ? 279.154 201.885 227.442 1.00 24.29  83  Q 1 
+ATOM 67  C CA . TRP P 13 84  ? 280.957 204.875 228.942 1.00 25.69  84  Q 1 
+ATOM 68  C CA . THR P 13 85  ? 278.321 207.195 227.527 1.00 27.51  85  Q 1 
+ATOM 69  C CA . GLU P 13 86  ? 275.965 204.541 228.855 1.00 33.08  86  Q 1 
+ATOM 70  C CA . GLN P 13 87  ? 277.859 204.657 232.165 1.00 36.20  87  Q 1 
+ATOM 71  C CA . ASN P 13 88  ? 277.943 208.293 233.124 1.00 35.87  88  Q 1 
+ATOM 72  C CA . TYR P 13 89  ? 274.503 209.720 232.390 1.00 37.17  89  Q 1 
+ATOM 73  C CA . PRO P 13 90  ? 272.996 208.201 235.463 1.00 39.86  90  Q 1 
+ATOM 74  C CA . GLN P 13 91  ? 269.484 208.915 234.394 1.00 41.27  91  Q 1 
+ATOM 75  C CA . GLY P 13 92  ? 269.398 209.589 230.682 1.00 40.31  92  Q 1 
+ATOM 76  C CA . GLY P 13 93  ? 269.663 213.140 229.391 1.00 39.93  93  Q 1 
+ATOM 77  C CA . LYS P 13 94  ? 270.076 214.661 225.958 1.00 37.37  94  Q 1 
+ATOM 78  C CA . GLU P 13 95  ? 273.633 215.602 226.961 1.00 33.31  95  Q 1 
+ATOM 79  C CA . SER P 13 96  ? 274.078 211.870 226.556 1.00 25.75  96  Q 1 
+ATOM 80  C CA . ASN P 13 97  ? 273.337 212.429 222.817 1.00 21.86  97  Q 1 
+ATOM 81  C CA . MET P 13 98  ? 273.397 208.604 222.554 1.00 19.35  98  Q 1 
+ATOM 82  C CA . SER P 13 99  ? 270.555 208.659 220.005 1.00 19.51  99  Q 1 
+ATOM 83  C CA . THR P 13 100 ? 273.004 210.183 217.564 1.00 17.19  100 Q 1 
+ATOM 84  C CA . LEU P 13 101 ? 275.663 207.699 218.643 1.00 15.45  101 Q 1 
+ATOM 85  C CA . LEU P 13 102 ? 273.298 204.748 218.388 1.00 13.94  102 Q 1 
+ATOM 86  C CA . GLU P 13 103 ? 272.342 205.937 214.927 1.00 15.29  103 Q 1 
+ATOM 87  C CA . ARG P 13 104 ? 276.048 206.493 214.300 1.00 14.51  104 Q 1 
+ATOM 88  C CA . ALA P 13 105 ? 276.983 202.951 215.325 1.00 15.14  105 Q 1 
+ATOM 89  C CA . VAL P 13 106 ? 274.126 201.635 213.180 1.00 17.60  106 Q 1 
+ATOM 90  C CA . GLU P 13 107 ? 274.982 203.918 210.268 1.00 20.31  107 Q 1 
+ATOM 91  C CA . ALA P 13 108 ? 278.703 203.220 210.594 1.00 20.67  108 Q 1 
+ATOM 92  C CA . LEU P 13 109 ? 278.465 199.455 210.933 1.00 21.50  109 Q 1 
+ATOM 93  C CA . GLN P 13 110 ? 275.424 198.806 208.754 1.00 24.96  110 Q 1 
+ATOM 94  C CA . GLY P 13 111 ? 275.805 196.143 206.094 1.00 27.97  111 Q 1 
+ATOM 95  C CA . GLU P 13 112 ? 278.174 193.701 207.802 1.00 29.43  112 Q 1 
+ATOM 96  C CA . LYS P 13 113 ? 276.693 190.273 208.326 1.00 29.53  113 Q 1 
+ATOM 97  C CA . ARG P 13 114 ? 279.811 189.520 210.373 1.00 27.62  114 Q 1 
+ATOM 98  C CA . TYR P 13 115 ? 278.024 191.396 213.145 1.00 24.00  115 Q 1 
+ATOM 99  C CA . TYR P 13 116 ? 274.891 189.205 212.868 1.00 23.32  116 Q 1 
+ATOM 100 C CA . SER P 13 117 ? 276.824 186.550 214.760 1.00 22.74  117 Q 1 
+ATOM 101 C CA . ASP P 13 118 ? 278.008 189.317 217.027 1.00 20.77  118 Q 1 
+ATOM 102 C CA . PRO P 13 119 ? 275.661 190.188 219.909 1.00 18.85  119 Q 1 
+ATOM 103 C CA . ARG P 13 120 ? 276.953 193.630 220.899 1.00 17.75  120 Q 1 
+ATOM 104 C CA . PHE P 13 121 ? 275.961 194.834 217.431 1.00 17.62  121 Q 1 
+ATOM 105 C CA . LEU P 13 122 ? 272.446 193.491 217.888 1.00 17.82  122 Q 1 
+ATOM 106 C CA . ASN P 13 123 ? 272.684 194.671 221.481 1.00 19.37  123 Q 1 
+ATOM 107 C CA . LEU P 13 124 ? 272.904 198.086 219.870 1.00 19.38  124 Q 1 
+ATOM 108 C CA . TRP P 13 125 ? 269.724 197.417 217.915 1.00 18.42  125 Q 1 
+ATOM 109 C CA . LEU P 13 126 ? 267.979 196.007 220.957 1.00 17.54  126 Q 1 
+ATOM 110 C CA . LYS P 13 127 ? 268.984 199.205 222.720 1.00 19.08  127 Q 1 
+ATOM 111 C CA . LEU P 13 128 ? 267.930 201.200 219.668 1.00 20.43  128 Q 1 
+ATOM 112 C CA . GLY P 13 129 ? 264.509 199.660 219.154 1.00 21.67  129 Q 1 
+ATOM 113 C CA . ARG P 13 130 ? 263.972 199.850 222.895 1.00 23.32  130 Q 1 
+ATOM 114 C CA . LEU P 13 131 ? 264.749 203.551 222.607 1.00 24.18  131 Q 1 
+ATOM 115 C CA . CYS P 13 132 ? 262.917 203.947 219.302 1.00 22.52  132 Q 1 
+ATOM 116 C CA . ASN P 13 133 ? 259.189 204.591 219.099 1.00 22.01  133 Q 1 
+ATOM 117 C CA . GLU P 13 134 ? 258.165 201.130 217.906 1.00 20.12  134 Q 1 
+ATOM 118 C CA . PRO P 13 135 ? 260.865 198.467 218.253 1.00 18.00  135 Q 1 
+ATOM 119 C CA . LEU P 13 136 ? 258.915 196.006 216.135 1.00 16.41  136 Q 1 
+ATOM 120 C CA . ASP P 13 137 ? 259.968 197.099 212.657 1.00 16.84  137 Q 1 
+ATOM 121 C CA . MET P 13 138 ? 263.494 196.628 213.927 1.00 15.33  138 Q 1 
+ATOM 122 C CA . TYR P 13 139 ? 262.564 193.068 214.846 1.00 16.52  139 Q 1 
+ATOM 123 C CA . SER P 13 140 ? 260.932 192.822 211.443 1.00 17.97  140 Q 1 
+ATOM 124 C CA . TYR P 13 141 ? 264.020 194.351 209.852 1.00 17.49  141 Q 1 
+ATOM 125 C CA . LEU P 13 142 ? 266.117 192.131 212.118 1.00 16.82  142 Q 1 
+ATOM 126 C CA . HIS P 13 143 ? 263.767 189.347 211.105 1.00 18.79  143 Q 1 
+ATOM 127 C CA . ASN P 13 144 ? 263.965 190.533 207.502 1.00 20.49  144 Q 1 
+ATOM 128 C CA . GLN P 13 145 ? 267.734 190.835 207.715 1.00 20.81  145 Q 1 
+ATOM 129 C CA . GLY P 13 146 ? 268.087 187.647 209.763 1.00 19.00  146 Q 1 
+ATOM 130 C CA . ILE P 13 147 ? 270.186 189.718 212.144 1.00 17.06  147 Q 1 
+ATOM 131 C CA . GLY P 13 148 ? 271.468 187.690 215.091 1.00 16.20  148 Q 1 
+ATOM 132 C CA . VAL P 13 149 ? 268.499 185.330 214.824 1.00 16.02  149 Q 1 
+ATOM 133 C CA . SER P 13 150 ? 270.973 182.649 215.925 1.00 16.07  150 Q 1 
+ATOM 134 C CA . LEU P 13 151 ? 270.829 183.624 219.588 1.00 14.89  151 Q 1 
+ATOM 135 C CA . ALA P 13 152 ? 267.886 183.101 221.914 1.00 15.25  152 Q 1 
+ATOM 136 C CA . GLN P 13 153 ? 268.139 186.605 223.355 1.00 16.05  153 Q 1 
+ATOM 137 C CA . PHE P 13 154 ? 267.049 187.834 219.923 1.00 14.21  154 Q 1 
+ATOM 138 C CA . TYR P 13 155 ? 263.549 186.403 220.154 1.00 14.12  155 Q 1 
+ATOM 139 C CA . ILE P 13 156 ? 263.831 186.564 223.944 1.00 14.09  156 Q 1 
+ATOM 140 C CA . SER P 13 157 ? 263.813 190.344 223.804 1.00 13.98  157 Q 1 
+ATOM 141 C CA . TRP P 13 158 ? 261.137 189.933 221.138 1.00 13.98  158 Q 1 
+ATOM 142 C CA . ALA P 13 159 ? 258.457 188.322 223.287 1.00 14.03  159 Q 1 
+ATOM 143 C CA . GLU P 13 160 ? 259.810 190.394 226.154 1.00 15.29  160 Q 1 
+ATOM 144 C CA . GLU P 13 161 ? 258.163 193.247 224.258 1.00 15.23  161 Q 1 
+ATOM 145 C CA . TYR P 13 162 ? 254.955 191.523 223.328 1.00 14.42  162 Q 1 
+ATOM 146 C CA . GLU P 13 163 ? 254.153 190.712 226.930 1.00 14.49  163 Q 1 
+ATOM 147 C CA . ALA P 13 164 ? 255.171 194.266 227.693 1.00 15.58  164 Q 1 
+ATOM 148 C CA . ARG P 13 165 ? 253.120 195.019 224.583 1.00 16.00  165 Q 1 
+ATOM 149 C CA . GLU P 13 166 ? 250.429 192.923 226.282 1.00 16.41  166 Q 1 
+ATOM 150 C CA . ASN P 13 167 ? 250.164 190.601 223.275 1.00 16.49  167 Q 1 
+ATOM 151 C CA . PHE P 13 168 ? 250.769 187.244 224.976 1.00 16.86  168 Q 1 
+ATOM 152 C CA . ARG P 13 169 ? 249.891 185.046 221.984 0.50 17.05  169 Q 1 
+ATOM 153 C CA . LYS P 13 170 ? 252.366 186.756 219.626 1.00 16.22  170 Q 1 
+ATOM 154 C CA . ALA P 13 171 ? 255.109 186.626 222.246 1.00 14.18  171 Q 1 
+ATOM 155 C CA . ASP P 13 172 ? 254.252 182.973 222.836 1.00 15.36  172 Q 1 
+ATOM 156 C CA . ALA P 13 173 ? 254.239 182.222 219.108 1.00 14.83  173 Q 1 
+ATOM 157 C CA . ILE P 13 174 ? 257.729 183.639 218.613 1.00 14.28  174 Q 1 
+ATOM 158 C CA . PHE P 13 175 ? 258.957 181.537 221.528 1.00 15.75  175 Q 1 
+ATOM 159 C CA . GLN P 13 176 ? 257.343 178.404 220.103 0.50 18.44  176 Q 1 
+ATOM 160 C CA . GLU P 13 177 ? 259.069 178.853 216.748 1.00 18.34  177 Q 1 
+ATOM 161 C CA . GLY P 13 178 ? 262.331 179.401 218.598 1.00 17.45  178 Q 1 
+ATOM 162 C CA . ILE P 13 179 ? 261.792 176.330 220.756 1.00 19.60  179 Q 1 
+ATOM 163 C CA . GLN P 13 180 ? 261.447 173.992 217.780 0.50 22.03  180 Q 1 
+ATOM 164 C CA . GLN P 13 181 ? 264.659 175.438 216.365 1.00 23.06  181 Q 1 
+ATOM 165 C CA . LYS P 13 182 ? 266.209 175.263 219.824 1.00 21.82  182 Q 1 
+ATOM 166 C CA . ALA P 13 183 ? 268.809 177.801 218.692 1.00 19.94  183 Q 1 
+ATOM 167 C CA . GLU P 13 184 ? 271.544 178.511 221.232 1.00 21.49  184 Q 1 
+ATOM 168 C CA . PRO P 13 185 ? 270.991 179.206 223.912 1.00 21.97  185 Q 1 
+ATOM 169 C CA . LEU P 13 186 ? 267.748 177.217 223.992 1.00 22.27  186 Q 1 
+ATOM 170 C CA . GLU P 13 187 ? 268.051 176.462 227.705 1.00 24.24  187 Q 1 
+ATOM 171 C CA . ARG P 13 188 ? 267.982 180.122 228.725 1.00 23.08  188 Q 1 
+ATOM 172 C CA . LEU P 13 189 ? 265.078 180.629 226.323 1.00 19.66  189 Q 1 
+ATOM 173 C CA . GLN P 13 190 ? 263.471 177.552 227.828 1.00 20.32  190 Q 1 
+ATOM 174 C CA . SER P 13 191 ? 264.346 179.136 231.164 1.00 20.38  191 Q 1 
+ATOM 175 C CA . GLN P 13 192 ? 262.575 182.312 230.086 1.00 18.74  192 Q 1 
+ATOM 176 C CA . HIS P 13 193 ? 259.598 180.722 228.364 1.00 17.32  193 Q 1 
+ATOM 177 C CA . ARG P 13 194 ? 258.786 178.724 231.476 1.00 18.72  194 Q 1 
+ATOM 178 C CA . GLN P 13 195 ? 259.065 181.893 233.558 1.00 19.47  195 Q 1 
+ATOM 179 C CA . PHE P 13 196 ? 256.960 183.469 230.825 1.00 17.64  196 Q 1 
+ATOM 180 C CA . GLN P 13 197 ? 254.187 180.886 231.039 1.00 17.44  197 Q 1 
+ATOM 181 C CA . ALA P 13 198 ? 253.878 181.435 234.779 1.00 16.96  198 Q 1 
+ATOM 182 C CA . ARG P 13 199 ? 253.588 185.230 234.699 1.00 16.25  199 Q 1 
+ATOM 183 C CA . VAL P 13 200 ? 251.109 184.648 231.900 1.00 18.46  200 Q 1 
+ATOM 184 C CA . SER P 13 201 ? 249.185 182.483 234.330 1.00 21.49  201 Q 1 
+ATOM 185 C CA . ARG P 13 202 ? 250.089 184.923 237.094 1.00 24.31  202 Q 1 
+ATOM 186 C CA . GLN P 13 203 ? 248.078 187.730 235.492 1.00 26.35  203 Q 1 
+ATOM 187 C CA . THR P 13 204 ? 244.961 185.618 234.915 1.00 30.14  204 Q 1 
+ATOM 188 C CA . LEU P 13 205 ? 244.724 185.392 238.712 1.00 32.59  205 Q 1 
+ATOM 189 C CA . ARG P 13 224 ? 230.509 211.131 226.311 1.00 46.14  224 Q 1 
+ATOM 190 C CA . SER P 13 225 ? 229.346 209.476 223.088 1.00 45.55  225 Q 1 
+ATOM 191 C CA . THR P 13 226 ? 230.355 209.035 219.457 1.00 47.11  226 Q 1 
+ATOM 192 C CA . LEU P 13 227 ? 229.121 210.873 216.372 1.00 44.45  227 Q 1 
+ATOM 193 C CA . ALA P 13 228 ? 227.639 213.311 215.991 1.00 44.09  228 Q 1 
+ATOM 194 C CA . GLU P 13 229 ? 227.840 214.726 219.497 1.00 48.01  229 Q 1 
+ATOM 195 C CA . LEU P 13 230 ? 228.439 218.494 219.387 1.00 42.79  230 Q 1 
+ATOM 196 C CA . ILE P 13 272 ? 233.085 191.175 191.923 1.00 67.79  272 Q 1 
+ATOM 197 C CA . THR P 13 273 ? 234.471 188.049 193.589 1.00 73.18  273 Q 1 
+ATOM 198 C CA . VAL P 13 274 ? 236.983 187.710 196.405 1.00 65.41  274 Q 1 
+ATOM 199 C CA . PHE P 13 275 ? 238.966 184.664 197.470 1.00 66.79  275 Q 1 
+ATOM 200 C CA . ASP P 13 276 ? 237.289 183.574 200.701 1.00 73.00  276 Q 1 
+ATOM 201 C CA . GLU P 13 277 ? 239.192 183.125 203.943 1.00 70.43  277 Q 1 
+ATOM 202 C CA . THR P 13 291 ? 255.944 186.592 205.613 1.00 77.07  291 Q 1 
+ATOM 203 C CA . VAL P 13 292 ? 259.033 187.495 203.602 1.00 80.31  292 Q 1 
+ATOM 204 C CA . GLN P 13 293 ? 262.047 189.772 203.361 1.00 99.96  293 Q 1 
+ATOM 205 C CA . PRO P 13 294 ? 262.789 192.547 203.543 1.00 100.37 294 Q 1 
+ATOM 206 C CA . TRP P 13 295 ? 262.564 195.738 205.557 1.00 100.28 295 Q 1 
+ATOM 207 C CA . ILE P 13 296 ? 264.597 198.935 205.593 1.00 81.57  296 Q 1 
+ATOM 208 C CA . ALA P 13 297 ? 266.571 200.136 208.590 1.00 72.78  297 Q 1 
+ATOM 209 C CA . PRO P 13 298 ? 265.828 203.635 207.269 1.00 59.53  298 Q 1 
+ATOM 210 C CA . PRO P 13 299 ? 263.031 203.808 209.817 1.00 55.45  299 Q 1 
+ATOM 211 C CA . MET P 13 300 ? 263.132 205.654 212.066 1.00 53.61  300 Q 1 
+ATOM 212 C CA . PRO P 13 301 ? 263.766 208.416 214.544 1.00 49.17  301 Q 1 
+ATOM 213 C CA . ARG P 13 302 ? 261.843 210.634 213.193 1.00 43.49  302 Q 1 
+ATOM 214 C CA . ALA P 13 303 ? 258.968 209.664 213.188 1.00 43.05  303 Q 1 
+ATOM 215 C CA . LYS P 13 304 ? 259.118 213.163 211.784 1.00 42.81  304 Q 1 
+ATOM 216 C CA . GLU P 13 305 ? 256.033 214.792 210.278 1.00 43.54  305 Q 1 
+ATOM 217 C CA . ASN P 13 306 ? 254.049 214.421 213.501 1.00 45.71  306 Q 1 
+ATOM 218 C CA . GLU P 13 307 ? 256.887 215.823 215.632 1.00 49.03  307 Q 1 
+ATOM 219 C CA . LEU P 13 308 ? 256.373 219.412 214.424 1.00 30.00  308 Q 1 
+#
